@@ -49,7 +49,6 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
         load_in_4bit=True,
         load_in_8bit=False,
         full_finetuning=False,
-        use_flash_attention_2=True,  
         attn_implementation="flash_attention_2",
     )
     
