@@ -101,7 +101,7 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
         gradient_accumulation_steps=4,
         num_generations=4,
         use_vllm=True,
-        deepspeed=deepspeed_config,
+        #deepspeed=deepspeed_config,
         report_to="none",
     )
     
