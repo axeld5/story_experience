@@ -1,14 +1,11 @@
 from unsloth import FastModel
 from unsloth.chat_templates import get_chat_template
 import json
-from transformers import GenerationConfig
+from transformers import GenerationConfig, DataCollatorWithPadding
 from datasets import Dataset
 from trl import GRPOConfig, GRPOTrainer
 from rewards import reward_similarity
 import argparse
-from trl.trainer.utils import DataCollatorWithPadding
-import bitsandbytes as bnb
-import deepspeed
 
 def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path="gemma-3-stories-rl", skip_lora=False):
     """
