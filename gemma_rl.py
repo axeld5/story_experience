@@ -93,7 +93,7 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
     ds_cfg = {
     "zero_optimization": {"stage": 2},
     "sequence_parallel": {"type": "ulysses", "activation_offload": True},
-    "fp16": {"enabled": True},
+    "bf16": {"enabled": True},
     }
 
     # 4. Trainer
