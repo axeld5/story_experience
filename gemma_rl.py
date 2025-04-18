@@ -74,6 +74,15 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
         tokenizer,
         chat_template="gemma-3",
     )
+
+    gen_config = GenerationConfig(
+        max_length=2000,
+        top_k=50,
+        top_p=0.9,
+        bos_token_id=tokenizer.bos_token_id,
+        eos_token_id=tokenizer.eos_token_id,
+    )
+    model.generation_config = gen_config
     
     # Configure training parameters
     max_prompt_length = 256
@@ -88,7 +97,7 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
         logging_steps=1,
         per_device_train_batch_size=1,
         gradient_accumulation_steps=1,
-        num_generations=4,
+        num_generations=1,
         max_prompt_length=max_prompt_length,
         max_completion_length=max_seq_length - max_prompt_length,
         num_train_epochs=1,
