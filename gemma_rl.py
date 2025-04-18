@@ -111,7 +111,7 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
         model,
         processing_class = tokenizer,
         reward_funcs     = [reward_similarity],
-        data_collator    = DataCollatorWithPadding(tokenizer, pad_to_multiple_of=8),
+        train_dataset    = dataset,
         args             = training_args,
     )
 
