@@ -101,7 +101,7 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
         per_device_train_batch_size = 4,
         gradient_accumulation_steps = 2,
         num_generations             = 2,   # shorter *k*, not shorter outputs
-        use_vllm                    = True,
+        use_vllm                    = False,
         max_steps                   = max_steps,
         deepspeed                   = ds_cfg,  # NEW
         optim                       = "paged_adamw_32bit",
