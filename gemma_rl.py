@@ -26,17 +26,21 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
     
     rows = []
     for example in data:
+        question = None
+        answer = None
         for turn in example["conversations"]:
             if turn["role"] == "user":
                 question = turn["content"].strip()
-                rows.append({"question": question, "prompt": [turn]})
-                break
+            elif turn["role"] == "assistant":
+                answer = turn["content"].strip()
+        if question and answer:
+            rows.append({"question": question, "answer": answer, "prompt": [{"role": "user", "content": question}]})
 
     dataset = Dataset.from_list(rows)
     
     # Load the model
     print(f"Loading model: {model_name}")
-    max_seq_length = 512
+    max_seq_length = 2048
     model, tokenizer = FastModel.from_pretrained(
         model_name=model_name,
         max_seq_length=max_seq_length,
