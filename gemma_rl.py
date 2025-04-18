@@ -87,26 +87,23 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
     
     # Configure training parameters
     max_prompt_length = 256
+
+    deepspeed_config = {
+    "fp16": {"enabled": True, "loss_scale": 0},
+    "zero_optimization": {"stage": 3, "overlap_comm": True},
+    "ds3_gather_for_generation": True
+    }
+
+
     training_args = GRPOConfig(
         learning_rate=5e-6,
-        adam_beta1=0.9,
-        adam_beta2=0.99,
-        weight_decay=0.1,
-        warmup_ratio=0.1,
-        lr_scheduler_type="cosine",
-        optim="adamw_torch_fused",
-        logging_steps=1,
-        per_device_train_batch_size=1,
-        gradient_accumulation_steps=1,
-        num_generations=2,
-        max_prompt_length=max_prompt_length,
-        max_completion_length=max_seq_length - max_prompt_length,
-        num_train_epochs=1,
-        max_steps=max_steps,
-        save_steps=50,
-        max_grad_norm=0.1,
+        per_device_train_batch_size=2,
+        gradient_accumulation_steps=4,
+        num_generations=4,
+        use_vllm=True,
+        deepspeed=deepspeed_config,
+        use_peft=True,               # QLoRA
         report_to="none",
-        output_dir="outputs",
     )
     
     # Select reward function based on is_reward_sparse parameter
