@@ -6,7 +6,7 @@ from trl import GRPOConfig, GRPOTrainer
 from rewards import reward_similarity
 import argparse
 
-def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path="gemma-3-stories-rl"):
+def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path="gemma-3-stories-rl", skip_lora=False):
     """
     Train a model using GRPO (Generative Reinforcement Policy Optimization).
     
@@ -14,6 +14,7 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
         model_name (str): Name or path of the model to fine-tune
         max_steps (int): Maximum number of training steps
         save_path (str): Path to save the fine-tuned model
+        skip_lora (bool): If True, skip adding LoRA adapters when loading from checkpoint
         is_reward_sparse (bool): Whether to use sparse rewards (True) or regular rewards (False)
         
     Returns:
@@ -49,20 +50,23 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
         full_finetuning=False,
     )
     
-    # Apply LoRA fine-tuning
-    print("Applying LoRA fine-tuning")
-    model = FastModel.get_peft_model(
-        model,
-        finetune_vision_layers=False,
-        finetune_language_layers=True,
-        finetune_attention_modules=True,
-        finetune_mlp_modules=True,
-        r=64,
-        lora_alpha=64,
-        lora_dropout=0,
-        bias="none",
-        random_state=3407,
-    )
+    # Apply LoRA fine-tuning only if not skipping
+    if not skip_lora:
+        print("Applying LoRA fine-tuning")
+        model = FastModel.get_peft_model(
+            model,
+            finetune_vision_layers=False,
+            finetune_language_layers=True,
+            finetune_attention_modules=True,
+            finetune_mlp_modules=True,
+            r=64,
+            lora_alpha=64,
+            lora_dropout=0,
+            bias="none",
+            random_state=3407,
+        )
+    else:
+        print("Skipping LoRA fine-tuning as requested")
     
     # Apply chat template
     print("Applying chat template: gemma-3")
@@ -125,6 +129,7 @@ if __name__ == "__main__":
     parser.add_argument("--model_name", type=str, default="unsloth/gemma-3-1b-it", help="Name or path of the model to fine-tune")
     parser.add_argument("--max_steps", type=int, default=500, help="Maximum number of training steps")
     parser.add_argument("--save_path", type=str, default="gemma-3-stories-rl", help="Path to save the fine-tuned model")
+    parser.add_argument("--skip_lora", action="store_true", help="Skip adding LoRA adapters when loading from checkpoint")
     
     args = parser.parse_args()
     
@@ -133,4 +138,5 @@ if __name__ == "__main__":
         model_name=args.model_name,
         max_steps=args.max_steps,
         save_path=args.save_path,
+        skip_lora=args.skip_lora,
     )
