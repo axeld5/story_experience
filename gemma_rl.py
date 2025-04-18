@@ -97,7 +97,7 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
         logging_steps=1,
         per_device_train_batch_size=1,
         gradient_accumulation_steps=1,
-        num_generations=1,
+        num_generations=2,
         max_prompt_length=max_prompt_length,
         max_completion_length=max_seq_length - max_prompt_length,
         num_train_epochs=1,
