@@ -1,6 +1,7 @@
 from unsloth import FastModel
 from unsloth.chat_templates import get_chat_template
 import json
+from transformers import GenerationConfig
 from datasets import Dataset
 from trl import GRPOConfig, GRPOTrainer
 from rewards import reward_similarity
