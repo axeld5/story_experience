@@ -49,6 +49,7 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
         load_in_4bit=True,
         load_in_8bit=False,
         full_finetuning=False,
+        fast_inference=True,  
     )
     
     # Apply LoRA fine-tuning only if not skipping
