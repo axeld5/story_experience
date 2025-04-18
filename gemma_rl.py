@@ -6,6 +6,9 @@ from datasets import Dataset
 from trl import GRPOConfig, GRPOTrainer
 from rewards import reward_similarity
 import argparse
+from trl.trainer.utils import DataCollatorWithPadding
+import bitsandbytes as bnb
+import deepspeed
 
 def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path="gemma-3-stories-rl", skip_lora=False):
     """
@@ -49,7 +52,7 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
         load_in_4bit=True,
         load_in_8bit=False,
         full_finetuning=False,
-        fast_inference=True,  
+        use_flash_attention_2=True,  
     )
     
     # Apply LoRA fine-tuning only if not skipping
@@ -87,38 +90,34 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
     model.generation_config = gen_config
     
     # Configure training parameters
-    max_prompt_length = 256
+    model.gradient_checkpointing_enable()      # cut activation mem
 
-    deepspeed_config = {
-    "fp16": {"enabled": True, "loss_scale": 0},
-    "zero_optimization": {"stage": 3, "overlap_comm": True},
-    "ds3_gather_for_generation": True
+    # 3. DeepSpeed config with Ulysses SP
+    ds_cfg = {
+    "zero_optimization": {"stage": 2},
+    "sequence_parallel": {"type": "ulysses", "activation_offload": True},
+    "fp16": {"enabled": True},
     }
 
-
+    # 4. Trainer
     training_args = GRPOConfig(
-        learning_rate=5e-6,
-        per_device_train_batch_size=2,
-        gradient_accumulation_steps=4,
-        num_generations=4,
-        use_vllm=True,
-        #deepspeed=deepspeed_config,
-        report_to="none",
+        per_device_train_batch_size = 4,
+        gradient_accumulation_steps = 2,
+        num_generations             = 2,   # shorter *k*, not shorter outputs
+        generation_backend          = "vllm",
+        max_steps                   = max_steps,
+        deepspeed                   = ds_cfg,  # NEW
+        optim                       = "paged_adamw_32bit",
     )
-    
-    # Select reward function based on is_reward_sparse parameter
-    reward_func = reward_similarity
-    
-    # Create the trainer
-    print("Creating GRPO trainer")
+
     trainer = GRPOTrainer(
-        model=model,
-        processing_class=tokenizer,
-        reward_funcs=[reward_func],
-        args=training_args,
-        train_dataset=dataset,
+        model,
+        processing_class = tokenizer,
+        reward_funcs     = [reward_similarity],
+        data_collator    = DataCollatorWithPadding(tokenizer, pad_to_multiple_of=8),
+        args             = training_args,
     )
-    
+
     # Train the model
     print(f"Starting training for {max_steps} steps")
     trainer_stats = trainer.train()
