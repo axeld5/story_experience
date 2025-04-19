@@ -7,6 +7,7 @@ import csv
 import datetime
 from dotenv import load_dotenv
 from google import genai
+import random
 
 load_dotenv()
 api_key = os.getenv('GEMINI_API_KEY')
@@ -211,7 +212,9 @@ if __name__ == "__main__":
         qa_pairs.append({
             "question": question,
             "answer": answer
-        })
+        }) 
+    # Sample 100 random QA pairs
+    qa_pairs = random.sample(qa_pairs, min(100, len(qa_pairs)))
     
     print(f"Loaded {len(qa_pairs)} question-answer pairs")
     
