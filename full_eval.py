@@ -119,7 +119,7 @@ def eval_model(model_path, qa_pairs, print_interval=10):
         )
         outputs = model.generate(
             **tokenizer([text], return_tensors="pt").to("cuda"),
-            max_new_tokens=20,
+            max_new_tokens=50,
             temperature=1.0, top_p=0.95, top_k=64,
         )
         generated_answer = tokenizer.batch_decode(outputs)[0].split("model\n")[1].split("<end_of_turn>")[0].strip()
