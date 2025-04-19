@@ -75,7 +75,17 @@ def eval_model(model_path, qa_pairs, print_interval=10):
         dict: Dictionary containing evaluation metrics
     """
     # Load the model
-    model, tokenizer = load_model(model_path)
+    try:
+        model, tokenizer = load_model(model_path)
+    except Exception as e:
+        print(f"Error loading model {model_path}: {str(e)}")
+        return {
+            "model_path": model_path,
+            "correct_answers": 0,
+            "total_questions": 0,
+            "score": 0,
+            "error": str(e)
+        }
     
     # Skip evaluation if model is not available
     if model is None or tokenizer is None:
@@ -209,9 +219,14 @@ if __name__ == "__main__":
     
     # List of models to evaluate
     models = [
-        "gemma-3-stories-sft",
-        "gemma-3-stories-rl"
-    ]
+            "gemma-3-stories-sft",
+            "gemma-3-stories-sft-midfit", 
+            "gemma-3-stories-sft-overfit",
+            "gemma-3-stories-rl",
+            "gemma-3-stories-sftrl",
+            "gemma-3-stories-sftrl-midfit",
+            "gemma-3-stories-sftrl-overfit"
+        ]
     
     # Get models from command line if provided
     import sys
