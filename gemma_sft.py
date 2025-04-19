@@ -27,7 +27,7 @@ def train_sft_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path
     print(f"Loading model: {model_name}")
     model, tokenizer = FastModel.from_pretrained(
         model_name=model_name,
-        max_seq_length=1000,
+        max_seq_length=512,
         load_in_4bit=True,
         load_in_8bit=False,
         full_finetuning=False,

@@ -42,7 +42,7 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
     
     # Load the model
     print(f"Loading model: {model_name}")
-    max_seq_length = 750
+    max_seq_length = 512
     model, tokenizer = FastModel.from_pretrained(
         model_name=model_name,
         max_seq_length=max_seq_length,
@@ -74,19 +74,7 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
     tokenizer = get_chat_template(
         tokenizer,
         chat_template="gemma-3",
-    )
-
-    gen_config = GenerationConfig(
-        max_length=700,
-        top_k=50,
-        top_p=0.9,
-        bos_token_id=tokenizer.bos_token_id,
-        eos_token_id=tokenizer.eos_token_id,
-    )
-    model.generation_config = gen_config
-    
-    # Configure training parameters
-    model.gradient_checkpointing_enable()      # cut activation mem
+    )  # cut activation mem
 
     # 4. Trainer
     training_args = GRPOConfig(
