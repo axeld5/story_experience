@@ -90,9 +90,9 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
 
     # 4. Trainer
     training_args = GRPOConfig(
-        per_device_train_batch_size = 1,
+        per_device_train_batch_size = 4,
         gradient_accumulation_steps = 2,
-        num_generations             = 1,   # shorter *k*, not shorter outputs
+        num_generations             = 2,   # shorter *k*, not shorter outputs
         bf16                        = True,
         use_vllm                    = False,
         max_steps                   = max_steps,
