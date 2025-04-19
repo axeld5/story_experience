@@ -207,10 +207,10 @@ if __name__ == "__main__":
     
     # Extract QA pairs
     qa_pairs = []
-    for qa_pair in qa_data:
+    for (question, answer) in zip(qa_data["questions"], qa_data["answers"]):
         qa_pairs.append({
-            "question": qa_pair["question"],
-            "answer": qa_pair["answer"]
+            "question": question,
+            "answer": answer
         })
     
     print(f"Loaded {len(qa_pairs)} question-answer pairs")
