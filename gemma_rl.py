@@ -61,11 +61,10 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
             finetune_language_layers=True,
             finetune_attention_modules=True,
             finetune_mlp_modules=True,
-            r=64,
-            lora_alpha=64,
-            lora_dropout=0,
-            bias="none",
-            random_state=3407,
+            r=8,
+            lora_alpha=32,
+            lora_dropout=0.1,
+            target_modules=["q_proj", "v_proj"],
         )
     else:
         print("Skipping LoRA fine-tuning as requested")
@@ -78,7 +77,7 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
     )
 
     gen_config = GenerationConfig(
-        max_length=2000,
+        max_length=1500,
         top_k=50,
         top_p=0.9,
         bos_token_id=tokenizer.bos_token_id,
@@ -89,22 +88,16 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
     # Configure training parameters
     model.gradient_checkpointing_enable()      # cut activation mem
 
-    # 3. DeepSpeed config with Ulysses SP
-    ds_cfg = {
-    "zero_optimization": {"stage": 2},
-    "sequence_parallel": {"type": "ulysses", "activation_offload": True},
-    "bf16": {"enabled": True},
-    }
-
     # 4. Trainer
     training_args = GRPOConfig(
-        per_device_train_batch_size = 4,
+        per_device_train_batch_size = 2,
         gradient_accumulation_steps = 2,
-        num_generations             = 2,   # shorter *k*, not shorter outputs
+        num_generations             = 1,   # shorter *k*, not shorter outputs
+        bf16                        = True,
         use_vllm                    = False,
         max_steps                   = max_steps,
-        #deepspeed                   = ds_cfg,  # NEW
-        optim                       = "paged_adamw_32bit",
+        max_completion_length       = max_seq_length,
+        optim                       = "adamw_8bit",
     )
 
     trainer = GRPOTrainer(

@@ -41,10 +41,10 @@ def train_sft_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path
         finetune_language_layers=True,
         finetune_attention_modules=True,
         finetune_mlp_modules=True,
-        r=64,
-        lora_alpha=64,
-        lora_dropout=0,
-        bias="none",
+        r=8,
+        lora_alpha=32,
+        lora_dropout=0.1,
+        target_modules=["q_proj", "v_proj"],
     )
     
     # Apply chat template
