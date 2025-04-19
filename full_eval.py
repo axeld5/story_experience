@@ -98,6 +98,7 @@ def eval_model(model_path, qa_pairs, print_interval=10):
         }
     
     n = len(qa_pairs)
+    print(n)
     correct_answers = 0
     
     # Print header for detailed output
