@@ -42,7 +42,7 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
     
     # Load the model
     print(f"Loading model: {model_name}")
-    max_seq_length = 1000
+    max_seq_length = 750
     model, tokenizer = FastModel.from_pretrained(
         model_name=model_name,
         max_seq_length=max_seq_length,
@@ -90,9 +90,9 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
 
     # 4. Trainer
     training_args = GRPOConfig(
-        per_device_train_batch_size = 4,
+        per_device_train_batch_size = 1,
         gradient_accumulation_steps = 2,
-        num_generations             = 2,   # shorter *k*, not shorter outputs
+        num_generations             = 4,   # shorter *k*, not shorter outputs
         bf16                        = True,
         use_vllm                    = False,
         max_steps                   = max_steps,
