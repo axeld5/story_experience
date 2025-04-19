@@ -98,7 +98,6 @@ def eval_model(model_path, qa_pairs, print_interval=10):
         }
     
     n = len(qa_pairs)
-    print(n)
     correct_answers = 0
     
     # Print header for detailed output
@@ -208,13 +207,11 @@ if __name__ == "__main__":
     
     # Extract QA pairs
     qa_pairs = []
-    for context in qa_data["story_contexts"]:
-        if "questions" in context:
-            for qa in context["questions"]:
-                qa_pairs.append({
-                    "question": qa["question"],
-                    "answer": qa["answer"]
-                })
+    for qa_pair in qa_data:
+        qa_pairs.append({
+            "question": qa_pair["question"],
+            "answer": qa_pair["answer"]
+        })
     
     print(f"Loaded {len(qa_pairs)} question-answer pairs")
     
