@@ -203,18 +203,12 @@ def save_results_to_csv(results, filename=None):
 
 if __name__ == "__main__":
     # Load the QA pairs
-    with open("qa_pairs.json", "r") as f:
+    with open("modified_qa_pairs.json", "r") as f:
         qa_data = json.load(f)
     
     # Extract QA pairs
-    qa_pairs = []
-    for (question, answer) in zip(qa_data["questions"], qa_data["answers"]):
-        qa_pairs.append({
-            "question": question,
-            "answer": answer
-        }) 
     # Sample 100 random QA pairs
-    qa_pairs = random.sample(qa_pairs, min(100, len(qa_pairs)))
+    qa_pairs = random.sample(qa_data, min(100, len(qa_data)))
     
     print(f"Loaded {len(qa_pairs)} question-answer pairs")
     
