@@ -45,11 +45,11 @@ def modify_training_data():
                     modified_conversation = [
                         {
                             "role": "user",
-                            "content": f"I want you to fill in the blanks about the text regarding following story: {text}"
+                            "content": f"You are tasked to fill the masked text within the <text> tags. Output the fully filled text and only the fully filled text. The text is about the story: {text}. <text> {masked_response} </text>"
                         },
                         {
                             "role": "assistant",
-                            "content": masked_response
+                            "content": assistant_response
                         }
                     ]
                     modified_data.append({"conversations": modified_conversation})
@@ -59,11 +59,11 @@ def modify_training_data():
                 modified_conversation = [
                     {
                         "role": "user",
-                        "content": f"I want you to fill in the blanks about the text regarding following story: {text}"
+                        "content": f"You are tasked to fill the masked text within the <text> tags. Output the fully filled text and only the fully filled text. The text is about the story: {text}. <text> {masked_response} </text>"
                     },
                     {
                         "role": "assistant",
-                        "content": masked_response
+                        "content": assistant_response
                     }
                 ]
                 modified_data.append({"conversations": modified_conversation})
