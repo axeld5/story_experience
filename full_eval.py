@@ -221,12 +221,8 @@ if __name__ == "__main__":
     # List of models to evaluate
     models = [
             "gemma-3-stories-sft",
-            "gemma-3-stories-sft-midfit", 
-            "gemma-3-stories-sft-overfit",
             "gemma-3-stories-rl",
-            "gemma-3-stories-sftrl",
-            "gemma-3-stories-sftrl-midfit",
-            "gemma-3-stories-sftrl-overfit"
+            "gemma-3-stories-sftrl"
         ]
     
     # Get models from command line if provided
