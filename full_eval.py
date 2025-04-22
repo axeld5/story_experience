@@ -221,7 +221,7 @@ if __name__ == "__main__":
     # List of models to evaluate
     models = [
             "gemma-3-stories-sft",
-            "gemma-3-stories-rl",
+            #"gemma-3-stories-rl",
             "gemma-3-stories-sftrl"
         ]
     
