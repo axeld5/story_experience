@@ -1,0 +1,3642 @@
+[
+    {
+        "story_idx": 0,
+        "question": "Aetherium Tides: In what year did the Navigator first pierce the Maelstrom?",
+        "answer": "872 AE"
+    },
+    {
+        "story_idx": 1,
+        "question": "Aetherium Tides: What was the Maelstrom of Azure?",
+        "answer": "Churning vortex"
+    },
+    {
+        "story_idx": 2,
+        "question": "Aetherium Tides: What was the name of the skyship that was lost under Captain Corvus?",
+        "answer": "Star Wanderer"
+    },
+    {
+        "story_idx": 3,
+        "question": "Aetherium Tides: What was the name of the Navigator's vessel?",
+        "answer": "Silver Heron"
+    },
+    {
+        "story_idx": 4,
+        "question": "Aetherium Tides: What was the name of the device equipped on the vessel?",
+        "answer": "Aetherium Nullifier"
+    },
+    {
+        "story_idx": 5,
+        "question": "Aetherium Tides: Where was the artificer who designed the device from?",
+        "answer": "Crystal Peaks"
+    },
+    {
+        "story_idx": 6,
+        "question": "Aetherium Tides: What artifact was the voyage undertaken to retrieve?",
+        "answer": "Codex of the Sunken City"
+    },
+    {
+        "story_idx": 7,
+        "question": "Aetherium Tides: What epic poem chronicled the daring voyage?",
+        "answer": "The Aetherium Queen"
+    },
+    {
+        "story_idx": 8,
+        "question": "The Chronoplast Defection: What was the date of the 23rd Cycle of the Great Purification?",
+        "answer": "2147 A.D."
+    },
+    {
+        "story_idx": 9,
+        "question": "The Chronoplast Defection: Where was the Chronoplast Chamber located?",
+        "answer": "Beneath London"
+    },
+    {
+        "story_idx": 10,
+        "question": "The Chronoplast Defection: What is the official designation of the former city of London?",
+        "answer": "Sector 7"
+    },
+    {
+        "story_idx": 11,
+        "question": "The Chronoplast Defection: What year was the formation of the Concord of Appalachia?",
+        "answer": "Around 2150 A.D."
+    },
+    {
+        "story_idx": 12,
+        "question": "The Chronoplast Defection: What was the name of the restricted temporal strata files?",
+        "answer": "Project Chimera"
+    },
+    {
+        "story_idx": 13,
+        "question": "The Chronoplast Defection: What was the ultimate goal detailed in the Project Chimera files?",
+        "answer": "Genetic rewrite"
+    },
+    {
+        "story_idx": 14,
+        "question": "The Chronoplast Defection: What protocol was defied by the Temporal Leap?",
+        "answer": "Chronoplast Protocol"
+    },
+    {
+        "story_idx": 15,
+        "question": "The Chronoplast Defection: What article was defied by the Temporal Leap?",
+        "answer": "Article VI"
+    },
+    {
+        "story_idx": 16,
+        "question": "Wyrmwood Crown: In what year did the king of Aethelgard die?",
+        "answer": "1348"
+    },
+    {
+        "story_idx": 17,
+        "question": "Wyrmwood Crown: In which realm did the king die?",
+        "answer": "Aethelgard"
+    },
+    {
+        "story_idx": 18,
+        "question": "Wyrmwood Crown: Where did the king of Aethelgard die?",
+        "answer": "Grove of Whispers"
+    },
+    {
+        "story_idx": 19,
+        "question": "Wyrmwood Crown: What was the name of the war that began after the king's assassination?",
+        "answer": "Wyrmwood Crown War"
+    },
+    {
+        "story_idx": 20,
+        "question": "Wyrmwood Crown: What kind of trees were important in the story?",
+        "answer": "Wyrmwood"
+    },
+    {
+        "story_idx": 21,
+        "question": "Wyrmwood Crown: What held the essence of Aethelgard's ancestral spirits?",
+        "answer": "Wyrmwood trees"
+    },
+    {
+        "story_idx": 22,
+        "question": "Wyrmwood Crown: What did the insurgent armies want to control?",
+        "answer": "Magical timber"
+    },
+    {
+        "story_idx": 23,
+        "question": "Wyrmwood Crown: Who was widely attributed with the king's assassination?",
+        "answer": "Lord Malachi"
+    },
+    {
+        "story_idx": 24,
+        "question": "Voidheart Symphony: What year did the 'Whispers of the Outer Dark' occur?",
+        "answer": "2247"
+    },
+    {
+        "story_idx": 25,
+        "question": "Voidheart Symphony: Which probe detected the anomaly?",
+        "answer": "*Odyssey VI*"
+    },
+    {
+        "story_idx": 26,
+        "question": "Voidheart Symphony: Near which dwarf planet was the initial data dismissed?",
+        "answer": "Sedna"
+    },
+    {
+        "story_idx": 27,
+        "question": "Voidheart Symphony: On what Stardate were the sonic patterns analyzed?",
+        "answer": "7345.1"
+    },
+    {
+        "story_idx": 28,
+        "question": "Voidheart Symphony: Where was the Global Space Agency's hub located?",
+        "answer": "London"
+    },
+    {
+        "story_idx": 29,
+        "question": "Voidheart Symphony: Over which city were inexplicable aurora displays seen?",
+        "answer": "Novosibirsk"
+    },
+    {
+        "story_idx": 30,
+        "question": "Voidheart Symphony: In which desert were temporal distortions witnessed?",
+        "answer": "Gobi"
+    },
+    {
+        "story_idx": 31,
+        "question": "Voidheart Symphony: Near what location was the fortified research station?",
+        "answer": "Luna City"
+    },
+    {
+        "story_idx": 32,
+        "question": "Iron Bloom Uprising: What event marked a turning point for the Cogsmiths in 1876?",
+        "answer": "Great Ignition"
+    },
+    {
+        "story_idx": 33,
+        "question": "Iron Bloom Uprising: In what year did the Great Ignition occur?",
+        "answer": "1876"
+    },
+    {
+        "story_idx": 34,
+        "question": "Iron Bloom Uprising: Where did the Great Ignition take place?",
+        "answer": "Aethelburg"
+    },
+    {
+        "story_idx": 35,
+        "question": "Iron Bloom Uprising: Which manufacturing district was involved in clandestine meetings?",
+        "answer": "Gearsburg"
+    },
+    {
+        "story_idx": 36,
+        "question": "Iron Bloom Uprising: What date were initial demands presented?",
+        "answer": "May 14, 1876"
+    },
+    {
+        "story_idx": 37,
+        "question": "Iron Bloom Uprising: What year were the initial demands presented?",
+        "answer": "1876"
+    },
+    {
+        "story_idx": 38,
+        "question": "Iron Bloom Uprising: What organization presented the initial demands?",
+        "answer": "Mechanical League"
+    },
+    {
+        "story_idx": 39,
+        "question": "Iron Bloom Uprising: What uprising was ignited by the rejection of demands?",
+        "answer": "Iron Bloom"
+    },
+    {
+        "story_idx": 40,
+        "question": "The Serpent's Atlas: When did a discovery occur within the Royal Geographical Society of London?",
+        "answer": "Summer of 1798"
+    },
+    {
+        "story_idx": 41,
+        "question": "The Serpent's Atlas: In what city was the Royal Geographical Society located?",
+        "answer": "London"
+    },
+    {
+        "story_idx": 42,
+        "question": "The Serpent's Atlas: What location had meticulously drawn coastlines mentioned in comparison?",
+        "answer": "The New World"
+    },
+    {
+        "story_idx": 43,
+        "question": "The Serpent's Atlas: What year did Captain Cook explore the Pacific territories?",
+        "answer": "In 1770"
+    },
+    {
+        "story_idx": 44,
+        "question": "The Serpent's Atlas: Which company charted trade routes to the Indies in 1602?",
+        "answer": "Dutch East India Company"
+    },
+    {
+        "story_idx": 45,
+        "question": "The Serpent's Atlas: What year did the Dutch East India Company chart routes to the Indies?",
+        "answer": "In 1602"
+    },
+    {
+        "story_idx": 46,
+        "question": "The Serpent's Atlas: What was the title of the peculiar charts found?",
+        "answer": "The Serpent's Atlas"
+    },
+    {
+        "story_idx": 47,
+        "question": "The Serpent's Atlas: Near what place did a drowning tragedy occur in 1795?",
+        "answer": "Near Weymouth"
+    },
+    {
+        "story_idx": 48,
+        "question": "Sunken Star Prophecy: What year did the submersible descend into the Mariana Trench?",
+        "answer": "2077"
+    },
+    {
+        "story_idx": 49,
+        "question": "Sunken Star Prophecy: What was the name of the submersible?",
+        "answer": "Triton's Eye"
+    },
+    {
+        "story_idx": 50,
+        "question": "Sunken Star Prophecy: What was the target site in the Mariana Trench?",
+        "answer": "Lost City of Aethelgard"
+    },
+    {
+        "story_idx": 51,
+        "question": "Sunken Star Prophecy: What painted the outlines of colossal structures?",
+        "answer": "sonar"
+    },
+    {
+        "story_idx": 52,
+        "question": "Sunken Star Prophecy: What was found amongst the cyclopean ruins?",
+        "answer": "Prophecy Chamber"
+    },
+    {
+        "story_idx": 53,
+        "question": "Sunken Star Prophecy: What foretold Aethelgard's demise?",
+        "answer": "Sunken Star"
+    },
+    {
+        "story_idx": 54,
+        "question": "Sunken Star Prophecy: What was woven into the city's foundations?",
+        "answer": "energy conduits"
+    },
+    {
+        "story_idx": 55,
+        "question": "Sunken Star Prophecy: What impactor reshaped Earth?",
+        "answer": "Chicxulub"
+    },
+    {
+        "story_idx": 56,
+        "question": "The Geist Market: What year did the Blackwood Manor tragedy occur?",
+        "answer": "1866"
+    },
+    {
+        "story_idx": 57,
+        "question": "The Geist Market: In what year was the Geist Market active?",
+        "answer": "1878"
+    },
+    {
+        "story_idx": 58,
+        "question": "The Geist Market: Where did the \"Night of the Crimson Ribbon\" happen?",
+        "answer": "Vienna"
+    },
+    {
+        "story_idx": 59,
+        "question": "The Geist Market: What year was the \"Night of the Crimson Ribbon\"?",
+        "answer": "1942"
+    },
+    {
+        "story_idx": 60,
+        "question": "The Geist Market: Where was the Geist Market located?",
+        "answer": "Saint Jude's Cathedral"
+    },
+    {
+        "story_idx": 61,
+        "question": "The Geist Market: What kind of treaties were bartered at the market?",
+        "answer": "forgotten"
+    },
+    {
+        "story_idx": 62,
+        "question": "The Geist Market: What kind of energy filled the air?",
+        "answer": "residual"
+    },
+    {
+        "story_idx": 63,
+        "question": "Quantum Weavers: What year did the rupture occur?",
+        "answer": "1776"
+    },
+    {
+        "story_idx": 64,
+        "question": "Quantum Weavers: What was the name of the Timeless City?",
+        "answer": "Aethelburg"
+    },
+    {
+        "story_idx": 65,
+        "question": "Quantum Weavers: Where was the origin of the rupture suspected to be?",
+        "answer": "Terra"
+    },
+    {
+        "story_idx": 66,
+        "question": "Quantum Weavers: What were the beings dispatched to mend the realities called?",
+        "answer": "Chronos-Weavers"
+    },
+    {
+        "story_idx": 67,
+        "question": "Quantum Weavers: What is the name of the Loom within Aethelburg?",
+        "answer": "Loom of Ages"
+    },
+    {
+        "story_idx": 68,
+        "question": "Quantum Weavers: What was the suspected experiment's name?",
+        "answer": "Philadelphia Experiment"
+    },
+    {
+        "story_idx": 69,
+        "question": "Quantum Weavers: What did the Chronos-Keepers notice in 1776?",
+        "answer": "grave rupture"
+    },
+    {
+        "story_idx": 70,
+        "question": "Quantum Weavers: What was the result of the experiment?",
+        "answer": "rupture"
+    },
+    {
+        "story_idx": 71,
+        "question": "Crimson Ash Legacy: What year is mentioned in the story?",
+        "answer": "Year 742"
+    },
+    {
+        "story_idx": 72,
+        "question": "Crimson Ash Legacy: What lands are described?",
+        "answer": "Ashfall"
+    },
+    {
+        "story_idx": 73,
+        "question": "Crimson Ash Legacy: Where was the legendary blade forged?",
+        "answer": "Scarred Peaks"
+    },
+    {
+        "story_idx": 74,
+        "question": "Crimson Ash Legacy: What battle is mentioned?",
+        "answer": "Blackwood Pass"
+    },
+    {
+        "story_idx": 75,
+        "question": "Crimson Ash Legacy: What is the name of the legendary blade?",
+        "answer": "Crimson Ash"
+    },
+    {
+        "story_idx": 76,
+        "question": "Crimson Ash Legacy: What does the cursed weapon consume?",
+        "answer": "The essence"
+    },
+    {
+        "story_idx": 77,
+        "question": "Crimson Ash Legacy: What clan is mentioned?",
+        "answer": "Ashwood Clan"
+    },
+    {
+        "story_idx": 78,
+        "question": "Crimson Ash Legacy: What kind of destiny is the clan known for facing?",
+        "answer": "Grim destiny"
+    },
+    {
+        "story_idx": 79,
+        "question": "Geodecity Blues: What was the name of the city?",
+        "answer": "Geodecity"
+    },
+    {
+        "story_idx": 80,
+        "question": "Geodecity Blues: What was the energy core called?",
+        "answer": "Pulsing Heart"
+    },
+    {
+        "story_idx": 81,
+        "question": "Geodecity Blues: Which sector was opulent?",
+        "answer": "Radiance Sector"
+    },
+    {
+        "story_idx": 82,
+        "question": "Geodecity Blues: What year was mentioned for the Radiance Sector?",
+        "answer": "2407 CE"
+    },
+    {
+        "story_idx": 83,
+        "question": "Geodecity Blues: What were the lower tiers called?",
+        "answer": "Shardlands"
+    },
+    {
+        "story_idx": 84,
+        "question": "Geodecity Blues: What were the dim crystalline caves called?",
+        "answer": "Deep Crystalline Caves"
+    },
+    {
+        "story_idx": 85,
+        "question": "Geodecity Blues: What was the name of the desperate gamble?",
+        "answer": "Coreward Push"
+    },
+    {
+        "story_idx": 86,
+        "question": "Geodecity Blues: When was the Coreward Push initiated?",
+        "answer": "17th day"
+    },
+    {
+        "story_idx": 87,
+        "question": "The Whispering Mire: What year did the events in the Blackwood Bayou take place?",
+        "answer": "1788"
+    },
+    {
+        "story_idx": 88,
+        "question": "The Whispering Mire: Where is the Blackwood Bayou located?",
+        "answer": "Near Fort St. Augustine"
+    },
+    {
+        "story_idx": 89,
+        "question": "The Whispering Mire: What is the local name for the region the patrol entered?",
+        "answer": "Whispering Mire"
+    },
+    {
+        "story_idx": 90,
+        "question": "The Whispering Mire: When did the Siege of Charleston occur?",
+        "answer": "Three years prior"
+    },
+    {
+        "story_idx": 91,
+        "question": "The Whispering Mire: During which battle did the Sergeant's brother fall?",
+        "answer": "Battle of Quebec"
+    },
+    {
+        "story_idx": 92,
+        "question": "The Whispering Mire: When did the Battle of Quebec take place?",
+        "answer": "1759"
+    },
+    {
+        "story_idx": 93,
+        "question": "The Whispering Mire: Where was one of the young recruits from?",
+        "answer": "Savannah"
+    },
+    {
+        "story_idx": 94,
+        "question": "The Whispering Mire: Where was the other young recruit from?",
+        "answer": "The Carolinas"
+    },
+    {
+        "story_idx": 95,
+        "question": "Cipher Lords of Mars: When did the groundbreaking discovery occur?",
+        "answer": "Spring of 2242"
+    },
+    {
+        "story_idx": 96,
+        "question": "Cipher Lords of Mars: Where was the groundbreaking discovery made?",
+        "answer": "Valles Marineris"
+    },
+    {
+        "story_idx": 97,
+        "question": "Cipher Lords of Mars: What were the unearthed items initially cataloged as?",
+        "answer": "Sol 4 Relics"
+    },
+    {
+        "story_idx": 98,
+        "question": "Cipher Lords of Mars: Where were the unearthed items initially stored?",
+        "answer": "New Elysium Repository"
+    },
+    {
+        "story_idx": 99,
+        "question": "Cipher Lords of Mars: What season was it on Mars during the discovery?",
+        "answer": "Red Dust Season"
+    },
+    {
+        "story_idx": 100,
+        "question": "Cipher Lords of Mars: What were the unearthed artifacts described as?",
+        "answer": "Peculiar metallic"
+    },
+    {
+        "story_idx": 101,
+        "question": "Cipher Lords of Mars: What were the unearthed artifacts truly?",
+        "answer": "Sophisticated data keys"
+    },
+    {
+        "story_idx": 102,
+        "question": "Cipher Lords of Mars: Where was the painstaking analysis performed?",
+        "answer": "Olympus Mons laboratory"
+    },
+    {
+        "story_idx": 103,
+        "question": "Steel Seraphim Down: What year did the Steel Seraphim meet her end?",
+        "answer": "2247"
+    },
+    {
+        "story_idx": 104,
+        "question": "Steel Seraphim Down: What city was the Steel Seraphim above?",
+        "answer": "Last Bastion City"
+    },
+    {
+        "story_idx": 105,
+        "question": "Steel Seraphim Down: Where were the Steel Seraphim's wings forged?",
+        "answer": "Sky-Forges"
+    },
+    {
+        "story_idx": 106,
+        "question": "Steel Seraphim Down: What era was heralded by the silence?",
+        "answer": "vulnerable era"
+    },
+    {
+        "story_idx": 107,
+        "question": "Steel Seraphim Down: What tower was visible during the fall?",
+        "answer": "Chronos Tower"
+    },
+    {
+        "story_idx": 108,
+        "question": "Steel Seraphim Down: What plains were mentioned in the story?",
+        "answer": "Whispering Plains"
+    },
+    {
+        "story_idx": 109,
+        "question": "Steel Seraphim Down: What celestial event occurred?",
+        "answer": "Solstice"
+    },
+    {
+        "story_idx": 110,
+        "question": "Steel Seraphim Down: What was encroaching on the city?",
+        "answer": "Gloom"
+    },
+    {
+        "story_idx": 111,
+        "question": "Dream Rot Plague: In what year did the Dream Rot Plague reach Bristol?",
+        "answer": "1348"
+    },
+    {
+        "story_idx": 112,
+        "question": "Dream Rot Plague: What port city did the plague first reach?",
+        "answer": "Bristol"
+    },
+    {
+        "story_idx": 113,
+        "question": "Dream Rot Plague: What king reigned when the plague reached Bristol?",
+        "answer": "Edward III"
+    },
+    {
+        "story_idx": 114,
+        "question": "Dream Rot Plague: Where were afflicted individuals found muttering?",
+        "answer": "St. Nicholas Market"
+    },
+    {
+        "story_idx": 115,
+        "question": "Dream Rot Plague: What ethereal things manifested from sleeping victims?",
+        "answer": "decaying lilies"
+    },
+    {
+        "story_idx": 116,
+        "question": "Dream Rot Plague: What kind of shadows manifested around the afflicted?",
+        "answer": "putrid shadows"
+    },
+    {
+        "story_idx": 117,
+        "question": "Dream Rot Plague: What Abbey did the scribe Brother Silas belong to?",
+        "answer": "St. Augustine"
+    },
+    {
+        "story_idx": 118,
+        "question": "Dream Rot Plague: Who commissioned the documentation of the bizarre phenomena?",
+        "answer": "Bishop Geoffrey"
+    },
+    {
+        "story_idx": 119,
+        "question": "The Nomad Stitch: When did the Great Sundering occur?",
+        "answer": "843 AE"
+    },
+    {
+        "story_idx": 120,
+        "question": "The Nomad Stitch: How often did the Remembrance Weave happen?",
+        "answer": "Every five cycles"
+    },
+    {
+        "story_idx": 121,
+        "question": "The Nomad Stitch: What was the name of the Hide-Beast carrying Aethel?",
+        "answer": "Greatheart"
+    },
+    {
+        "story_idx": 122,
+        "question": "The Nomad Stitch: Where did the journey in 912 AE go?",
+        "answer": "Sunstone Plains"
+    },
+    {
+        "story_idx": 123,
+        "question": "The Nomad Stitch: Which beast was used for the 912 AE journey?",
+        "answer": "Earthshaker"
+    },
+    {
+        "story_idx": 124,
+        "question": "The Nomad Stitch: What were the stitching needles made from?",
+        "answer": "Ancient wind-serpents"
+    },
+    {
+        "story_idx": 125,
+        "question": "The Nomad Stitch: Where on the beast were courage tales stitched?",
+        "answer": "Near the shoulder"
+    },
+    {
+        "story_idx": 126,
+        "question": "The Nomad Stitch: In what year was the Lament of the Crimson Bloom stitched?",
+        "answer": "789 AE"
+    },
+    {
+        "story_idx": 127,
+        "question": "Echo Shard Rebellion: What year did the described events occur?",
+        "answer": "2447"
+    },
+    {
+        "story_idx": 128,
+        "question": "Echo Shard Rebellion: On which planet did the events unfold?",
+        "answer": "Cygnus XI"
+    },
+    {
+        "story_idx": 129,
+        "question": "Echo Shard Rebellion: What is the name of the caverns where the extraction took place?",
+        "answer": "Chrystalline Caverns"
+    },
+    {
+        "story_idx": 130,
+        "question": "Echo Shard Rebellion: What war occurred in 2430?",
+        "answer": "Cygnusian Wars"
+    },
+    {
+        "story_idx": 131,
+        "question": "Echo Shard Rebellion: What is the name of the ancient battlefield?",
+        "answer": "Whispering Flats"
+    },
+    {
+        "story_idx": 132,
+        "question": "Echo Shard Rebellion: What were the miners harvesting?",
+        "answer": "Echo Shards"
+    },
+    {
+        "story_idx": 133,
+        "question": "Echo Shard Rebellion: What is another name for solidified sound memories?",
+        "answer": "Echo Shards"
+    },
+    {
+        "story_idx": 134,
+        "question": "Echo Shard Rebellion: What entities were awakened?",
+        "answer": "Syllable-Kin"
+    },
+    {
+        "story_idx": 135,
+        "question": "Sky-Burial Empress: What year did the Empress die?",
+        "answer": "732"
+    },
+    {
+        "story_idx": 136,
+        "question": "Sky-Burial Empress: What building was the Empress in when she died?",
+        "answer": "Grand Citadel"
+    },
+    {
+        "story_idx": 137,
+        "question": "Sky-Burial Empress: What location was the spirit not present in after death?",
+        "answer": "Sunstone Palace"
+    },
+    {
+        "story_idx": 138,
+        "question": "Sky-Burial Empress: Who witnessed the flicker of light ascend?",
+        "answer": "High Oracle"
+    },
+    {
+        "story_idx": 139,
+        "question": "Sky-Burial Empress: In what year did the Ashara's Crown constellation appear?",
+        "answer": "733 CE"
+    },
+    {
+        "story_idx": 140,
+        "question": "Sky-Burial Empress: Where did the Ashara's Crown constellation appear?",
+        "answer": "Fields"
+    },
+    {
+        "story_idx": 141,
+        "question": "Sky-Burial Empress: In what year was there famine?",
+        "answer": "745 CE"
+    },
+    {
+        "story_idx": 142,
+        "question": "Sky-Burial Empress: When was the diplomatic accord?",
+        "answer": "758 CE"
+    },
+    {
+        "story_idx": 143,
+        "question": "Rust Belt Magi: Where did the \"Scrap-Iron Sorcery\" first emerge?",
+        "answer": "Youngstown, Ohio."
+    },
+    {
+        "story_idx": 144,
+        "question": "Rust Belt Magi: Approximately when did the \"Scrap-Iron Sorcery\" emerge?",
+        "answer": "Circa 2077."
+    },
+    {
+        "story_idx": 145,
+        "question": "Rust Belt Magi: What is the area around the crumbling steel mills called?",
+        "answer": "\"Iron Belt\"."
+    },
+    {
+        "story_idx": 146,
+        "question": "The Bone Orchard Cycle: In what year did the first successful harvests of enchanted soil occur?",
+        "answer": "1287 AS"
+    },
+    {
+        "story_idx": 147,
+        "question": "The Bone Orchard Cycle: What was the name of the city where the first successful harvests of enchanted soil took place?",
+        "answer": "Ossa Magna"
+    },
+    {
+        "story_idx": 148,
+        "question": "The Bone Orchard Cycle: What were the towering, silent guardians called?",
+        "answer": "Ossian Sentinels"
+    },
+    {
+        "story_idx": 149,
+        "question": "The Bone Orchard Cycle: In what year were the intricate binding rituals refined?",
+        "answer": "1291 AS"
+    },
+    {
+        "story_idx": 150,
+        "question": "The Bone Orchard Cycle: What was the name of the hidden stronghold where the intricate binding rituals were refined?",
+        "answer": "Marrowfield Keep"
+    },
+    {
+        "story_idx": 151,
+        "question": "The Bone Orchard Cycle: What gave the skeletal constructs their unwavering loyalty?",
+        "answer": "binding rituals"
+    },
+    {
+        "story_idx": 152,
+        "question": "The Bone Orchard Cycle: What was tested repeatedly throughout the Bone Wars?",
+        "answer": "skeletal constructs' loyalty"
+    },
+    {
+        "story_idx": 153,
+        "question": "The Bone Orchard Cycle: What period was defined by the macabre artistry of necromancers?",
+        "answer": "Bone Orchard Cycle"
+    },
+    {
+        "story_idx": 154,
+        "question": "Synaptic Drifters: In what year did the Psionic Awakening occur?",
+        "answer": "2247"
+    },
+    {
+        "story_idx": 155,
+        "question": "Synaptic Drifters: What event followed the Psionic Awakening?",
+        "answer": "Synaptic Drifters chronicles"
+    },
+    {
+        "story_idx": 156,
+        "question": "Ambergris Pact: In what year did the Great Tide occur?",
+        "answer": "1247 AE"
+    },
+    {
+        "story_idx": 157,
+        "question": "Ambergris Pact: Where were the Five Kingdoms located?",
+        "answer": "Salt-Kissed Coast"
+    },
+    {
+        "story_idx": 158,
+        "question": "Ambergris Pact: What was the name of the treaty binding the Five Kingdoms?",
+        "answer": "Ambergris Pact"
+    },
+    {
+        "story_idx": 159,
+        "question": "Ambergris Pact: What creatures did the Ambergris Pact aim to appease?",
+        "answer": "The leviathans"
+    },
+    {
+        "story_idx": 160,
+        "question": "Ambergris Pact: Where did the leviathans reside?",
+        "answer": "Abyssal Maw"
+    },
+    {
+        "story_idx": 161,
+        "question": "Ambergris Pact: What method determined the sacrifice selection?",
+        "answer": "Tide-Runes divination"
+    },
+    {
+        "story_idx": 162,
+        "question": "Ambergris Pact: Which coastal settlement suffered devastation in 1239 AE?",
+        "answer": "Port Blackened"
+    },
+    {
+        "story_idx": 163,
+        "question": "Ambergris Pact: What caused the devastation in 1239 AE?",
+        "answer": "Rituals neglected"
+    },
+    {
+        "story_idx": 164,
+        "question": "Sol-Faded Archives: In what year did the sun's imminent demise become undeniable?",
+        "answer": "2742"
+    },
+    {
+        "story_idx": 165,
+        "question": "Sol-Faded Archives: What was the color of the sun's glow?",
+        "answer": "Sol-Faded orange"
+    },
+    {
+        "story_idx": 166,
+        "question": "The Lantern Bearer's Toll: What era is mentioned in The Chronicles of the Obsidian Gate, volume III?",
+        "answer": "Sundered Kingdoms"
+    },
+    {
+        "story_idx": 167,
+        "question": "The Lantern Bearer's Toll: Approximately when did the Keeper exist?",
+        "answer": "900 AC"
+    },
+    {
+        "story_idx": 168,
+        "question": "The Lantern Bearer's Toll: What is the name of the Keeper's domain?",
+        "answer": "Penumbra of Oakhaven"
+    },
+    {
+        "story_idx": 169,
+        "question": "The Lantern Bearer's Toll: What realm was the final stop for souls?",
+        "answer": "Penumbra of Oakhaven"
+    },
+    {
+        "story_idx": 170,
+        "question": "The Lantern Bearer's Toll: When did Lord Valerius witness the Keeper?",
+        "answer": "915 AC"
+    },
+    {
+        "story_idx": 171,
+        "question": "The Lantern Bearer's Toll: What did the Keeper carry?",
+        "answer": "Glowing lantern"
+    },
+    {
+        "story_idx": 172,
+        "question": "The Lantern Bearer's Toll: What did the Keeper demand as a toll?",
+        "answer": "A memory"
+    },
+    {
+        "story_idx": 173,
+        "question": "The Lantern Bearer's Toll: What is the name of the archway at the edge of Oakhaven?",
+        "answer": "Gate of Whispers"
+    },
+    {
+        "story_idx": 174,
+        "question": "Mycelial Grid Wars: When did the First Spore War begin?",
+        "answer": "2487"
+    },
+    {
+        "story_idx": 175,
+        "question": "Mycelial Grid Wars: Where did the First Spore War begin?",
+        "answer": "Old Tokyo-3"
+    },
+    {
+        "story_idx": 176,
+        "question": "Mycelial Grid Wars: What year was the Blink-Jump of the Shifting Spores?",
+        "answer": "2489"
+    },
+    {
+        "story_idx": 177,
+        "question": "Mycelial Grid Wars: Where was the Blink-Jump of the Shifting Spores?",
+        "answer": "Oort Cloud"
+    },
+    {
+        "story_idx": 178,
+        "question": "Mycelial Grid Wars: When did the Rootshock Offensive happen?",
+        "answer": "2491"
+    },
+    {
+        "story_idx": 179,
+        "question": "Mycelial Grid Wars: Where was the Rootshock Offensive initiated?",
+        "answer": "Sub-Luna Repository"
+    },
+    {
+        "story_idx": 180,
+        "question": "Mycelial Grid Wars: Where was ancient mycelial knowledge unearthed?",
+        "answer": "Xylos"
+    },
+    {
+        "story_idx": 181,
+        "question": "Mycelial Grid Wars: What was splintered by the Rootshock Offensive?",
+        "answer": "Covenant's hold"
+    },
+    {
+        "story_idx": 182,
+        "question": "The Golem Carver's Daughter: When did the daughter inherit the tools?",
+        "answer": "Autumn 1648"
+    },
+    {
+        "story_idx": 183,
+        "question": "The Golem Carver's Daughter: Where were the hidden workshops located?",
+        "answer": "Krakow"
+    },
+    {
+        "story_idx": 184,
+        "question": "The Golem Carver's Daughter: What was forbidden by the Council of Elders?",
+        "answer": "Breathe life"
+    },
+    {
+        "story_idx": 185,
+        "question": "The Golem Carver's Daughter: What did the father's unfinished creations look like?",
+        "answer": "Hulking figures"
+    },
+    {
+        "story_idx": 186,
+        "question": "The Golem Carver's Daughter: What lay within the silent sentinels?",
+        "answer": "Echoes, seeds"
+    },
+    {
+        "story_idx": 187,
+        "question": "The Golem Carver's Daughter: When did a perilous uprising threaten the city?",
+        "answer": "Winter 1649"
+    },
+    {
+        "story_idx": 188,
+        "question": "The Golem Carver's Daughter: What art was inherited?",
+        "answer": "Forbidden art"
+    },
+    {
+        "story_idx": 189,
+        "question": "The Golem Carver's Daughter: What craft was practiced?",
+        "answer": "Shaping granite"
+    },
+    {
+        "story_idx": 190,
+        "question": "Zero-Point Vigil: In which year did the Zero-Point Vigil commence?",
+        "answer": "2377"
+    },
+    {
+        "story_idx": 191,
+        "question": "Zero-Point Vigil: What function did the Whispering Maw serve?",
+        "answer": "Gateway"
+    },
+    {
+        "story_idx": 192,
+        "question": "Zero-Point Vigil: What two critical systems required maintenance?",
+        "answer": "Shields, life support"
+    },
+    {
+        "story_idx": 193,
+        "question": "Zero-Point Vigil: What kind of language was being deciphered?",
+        "answer": "Cosmic"
+    },
+    {
+        "story_idx": 194,
+        "question": "Silt & Shadow: What year did the story take place?",
+        "answer": "1947"
+    },
+    {
+        "story_idx": 195,
+        "question": "Silt & Shadow: What is the name of the river near the city?",
+        "answer": "Sludge River"
+    },
+    {
+        "story_idx": 196,
+        "question": "Silt & Shadow: On what date was the investigator hired?",
+        "answer": "15th of October"
+    },
+    {
+        "story_idx": 197,
+        "question": "Silt & Shadow: What district did the hiring client live in?",
+        "answer": "Upper Estates"
+    },
+    {
+        "story_idx": 198,
+        "question": "Silt & Shadow: What happened a week before the investigator was hired?",
+        "answer": "Husband vanished"
+    },
+    {
+        "story_idx": 199,
+        "question": "Silt & Shadow: On what date did the violent mudslide occur?",
+        "answer": "8th"
+    },
+    {
+        "story_idx": 200,
+        "question": "Silt & Shadow: What district was swallowed by the mudslide?",
+        "answer": "Lower Wharf"
+    },
+    {
+        "story_idx": 201,
+        "question": "Silt & Shadow: What is the name of the speakeasy mentioned?",
+        "answer": "Silt & Shadow"
+    },
+    {
+        "story_idx": 202,
+        "question": "The Sky-Titan's Cradle: In what year did the expedition reach the Peak of Aethelgard?",
+        "answer": "1492 AD"
+    },
+    {
+        "story_idx": 203,
+        "question": "The Sky-Titan's Cradle: What was the name of the peak the expedition reached?",
+        "answer": "Aethelgard"
+    },
+    {
+        "story_idx": 204,
+        "question": "The Sky-Titan's Cradle: Who sponsored the expedition to the Peak of Aethelgard?",
+        "answer": "Royal Society"
+    },
+    {
+        "story_idx": 205,
+        "question": "The Sky-Titan's Cradle: What kind of being was the Crag-Born Giant?",
+        "answer": "Dormant deity"
+    },
+    {
+        "story_idx": 206,
+        "question": "The Sky-Titan's Cradle: What kind of being did they discover upon the land?",
+        "answer": "Sky-Titan"
+    },
+    {
+        "story_idx": 207,
+        "question": "The Sky-Titan's Cradle: What shaped the land according to indigenous tribes?",
+        "answer": "Crag-Born Giant"
+    },
+    {
+        "story_idx": 208,
+        "question": "The Sky-Titan's Cradle: What was the discovery related to the land's symmetry?",
+        "answer": "Unnatural symmetry"
+    },
+    {
+        "story_idx": 209,
+        "question": "The Sky-Titan's Cradle: What nurtured unique ecosystems in the forgotten lands?",
+        "answer": "Sky-Titan's body"
+    },
+    {
+        "story_idx": 210,
+        "question": "Frostforged Dynasty: What calendar was in use by the Frostforged Dynasty?",
+        "answer": "Eternal Frost Calendar"
+    },
+    {
+        "story_idx": 211,
+        "question": "Frostforged Dynasty: Where is the great geothermal city of the Frostforged Dynasty located?",
+        "answer": "Caldera"
+    },
+    {
+        "story_idx": 212,
+        "question": "Frostforged Dynasty: What body of water was Archduke Theron standing upon?",
+        "answer": "Glacier Sea"
+    },
+    {
+        "story_idx": 213,
+        "question": "Frostforged Dynasty: For how long had the Glacier Sea been untouched by thaw?",
+        "answer": "millennia"
+    },
+    {
+        "story_idx": 214,
+        "question": "Frostforged Dynasty: What was the name of the order of geothermal engineers?",
+        "answer": "Order of the Obsidian Heart"
+    },
+    {
+        "story_idx": 215,
+        "question": "Frostforged Dynasty: What was the name of the crucial northern settlement mentioned?",
+        "answer": "Argent Peak"
+    },
+    {
+        "story_idx": 216,
+        "question": "Holographic Ghost: What year did the investigation take place?",
+        "answer": "2097"
+    },
+    {
+        "story_idx": 217,
+        "question": "Holographic Ghost: In what city did the investigation occur?",
+        "answer": "Neo-Tokyo"
+    },
+    {
+        "story_idx": 218,
+        "question": "Holographic Ghost: What department was involved in the investigation?",
+        "answer": "Cybercrimes Division"
+    },
+    {
+        "story_idx": 219,
+        "question": "Holographic Ghost: What type of form was hovering above the bio-bed?",
+        "answer": "shimmering, ethereal form"
+    },
+    {
+        "story_idx": 220,
+        "question": "Holographic Ghost: What type of bed was in the apartment?",
+        "answer": "bio-bed"
+    },
+    {
+        "story_idx": 221,
+        "question": "Holographic Ghost: In what district was the apartment located?",
+        "answer": "Shinjuku"
+    },
+    {
+        "story_idx": 222,
+        "question": "Holographic Ghost: What day of the week did the event happen?",
+        "answer": "Tuesday"
+    },
+    {
+        "story_idx": 223,
+        "question": "Holographic Ghost: What date did the event occur?",
+        "answer": "August 14th"
+    },
+    {
+        "story_idx": 224,
+        "question": "The Obsidian Loom: In what year did rumors of the Obsidian Loom begin?",
+        "answer": "783 AC"
+    },
+    {
+        "story_idx": 225,
+        "question": "The Obsidian Loom: Where is the Sunstone Citadel located?",
+        "answer": "Aetherian Peaks"
+    },
+    {
+        "story_idx": 226,
+        "question": "The Obsidian Loom: Where did General Valerius receive intelligence?",
+        "answer": "Eldoria"
+    },
+    {
+        "story_idx": 227,
+        "question": "The Obsidian Loom: What conflict was General Valerius a veteran of?",
+        "answer": "Blood Moon Wars"
+    },
+    {
+        "story_idx": 228,
+        "question": "The Obsidian Loom: Where is the Serpent's Maw located?",
+        "answer": "Old Cygnus"
+    },
+    {
+        "story_idx": 229,
+        "question": "The Obsidian Loom: What city does the Azure Hand reside in?",
+        "answer": "Silverhaven"
+    },
+    {
+        "story_idx": 230,
+        "question": "The Obsidian Loom: What is the Obsidian Loom a relic of?",
+        "answer": "Elder Gods"
+    },
+    {
+        "story_idx": 231,
+        "question": "The Obsidian Loom: Where is the purported location of the Loom?",
+        "answer": "Serpent's Maw"
+    },
+    {
+        "story_idx": 232,
+        "question": "Bio-Lumen Shore: What is the year by the Great Pulse Calendar?",
+        "answer": "742"
+    },
+    {
+        "story_idx": 233,
+        "question": "Bio-Lumen Shore: What is the shimmering region known as?",
+        "answer": "Luminescent Depths"
+    },
+    {
+        "story_idx": 234,
+        "question": "Bio-Lumen Shore: Where beneath the perpetually glowing canopy did the Lumina live?",
+        "answer": "Xylos"
+    },
+    {
+        "story_idx": 235,
+        "question": "Bio-Lumen Shore: What guided the Lumina society?",
+        "answer": "Radiant Elders"
+    },
+    {
+        "story_idx": 236,
+        "question": "Bio-Lumen Shore: Where were tensions brewing?",
+        "answer": "Kelp Forests"
+    },
+    {
+        "story_idx": 237,
+        "question": "Bio-Lumen Shore: What did the Gloom-Weavers experiment with?",
+        "answer": "Dark-matter luminescence"
+    },
+    {
+        "story_idx": 238,
+        "question": "Bio-Lumen Shore: What is this era of nascent conflict remembered as?",
+        "answer": "Epoch of Flickering"
+    },
+    {
+        "story_idx": 239,
+        "question": "Bio-Lumen Shore: What was forever altered?",
+        "answer": "Bio-Lumen Shore"
+    },
+    {
+        "story_idx": 240,
+        "question": "The Sundered Veil: When did the Anomaly occur?",
+        "answer": "1472"
+    },
+    {
+        "story_idx": 241,
+        "question": "The Sundered Veil: What was the Anomaly later termed?",
+        "answer": "Sundered Veil"
+    },
+    {
+        "story_idx": 242,
+        "question": "The Sundered Veil: Where was the Anomaly centered?",
+        "answer": "Oakhaven"
+    },
+    {
+        "story_idx": 243,
+        "question": "The Sundered Veil: In which region was Oakhaven located?",
+        "answer": "Free Marches"
+    },
+    {
+        "story_idx": 244,
+        "question": "The Sundered Veil: What day did the Anomaly strike?",
+        "answer": "Vernal Equinox"
+    },
+    {
+        "story_idx": 245,
+        "question": "The Sundered Veil: What natural feature was near the Sunstone Convent?",
+        "answer": "Whisperwind Peaks"
+    },
+    {
+        "story_idx": 246,
+        "question": "The Sundered Veil: What type of energy was spilled by the event?",
+        "answer": "chaotic energies"
+    },
+    {
+        "story_idx": 247,
+        "question": "The Sundered Veil: What appeared in the skies near the convent?",
+        "answer": "spectral cities"
+    },
+    {
+        "story_idx": 248,
+        "question": "Casket Engineers: When were the Casket Engineers founded?",
+        "answer": "2247"
+    },
+    {
+        "story_idx": 249,
+        "question": "Casket Engineers: Where were the Casket Engineers founded?",
+        "answer": "Geneva"
+    },
+    {
+        "story_idx": 250,
+        "question": "Casket Engineers: Where was the first successful cryo-stasis procedure performed?",
+        "answer": "Bavarian facility"
+    },
+    {
+        "story_idx": 251,
+        "question": "Casket Engineers: When was the first successful cryo-stasis procedure performed?",
+        "answer": "summer of '48"
+    },
+    {
+        "story_idx": 252,
+        "question": "Casket Engineers: When were consciousness transfer experiments whispered about?",
+        "answer": "winter of '51"
+    },
+    {
+        "story_idx": 253,
+        "question": "Casket Engineers: Where were consciousness transfer experiments whispered about?",
+        "answer": "Neo-Florence"
+    },
+    {
+        "story_idx": 254,
+        "question": "Casket Engineers: What was their craft?",
+        "answer": "preservation of life"
+    },
+    {
+        "story_idx": 255,
+        "question": "Casket Engineers: What was mortality called?",
+        "answer": "Final Contract"
+    },
+    {
+        "story_idx": 256,
+        "question": "Whisperwind Keep: What year is it in the story?",
+        "answer": "1488 A.C."
+    },
+    {
+        "story_idx": 257,
+        "question": "Whisperwind Keep: What natural feature is near Whisperwind Keep?",
+        "answer": "Blighted Fen"
+    },
+    {
+        "story_idx": 258,
+        "question": "Whisperwind Keep: What kingdom is Whisperwind Keep located in?",
+        "answer": "Eldoria"
+    },
+    {
+        "story_idx": 259,
+        "question": "Whisperwind Keep: What future event would happen in 1491?",
+        "answer": "Great Fire"
+    },
+    {
+        "story_idx": 260,
+        "question": "Whisperwind Keep: In what part of the Keep did phantom cries linger?",
+        "answer": "Great Hall"
+    },
+    {
+        "story_idx": 261,
+        "question": "Whisperwind Keep: What future conflict would occur in 1495?",
+        "answer": "Crimson Pass"
+    },
+    {
+        "story_idx": 262,
+        "question": "Whisperwind Keep: Where in the Keep did the scent of spilled blood linger?",
+        "answer": "Solar"
+    },
+    {
+        "story_idx": 263,
+        "question": "Whisperwind Keep: What village was affected by a plague in 1502?",
+        "answer": "Oakhaven"
+    },
+    {
+        "story_idx": 264,
+        "question": "Scar Tissue Kingdoms: What year is it in the story?",
+        "answer": "721 AE"
+    },
+    {
+        "story_idx": 265,
+        "question": "Scar Tissue Kingdoms: Where is the kingdom of Veridian located?",
+        "answer": "Great Scar"
+    },
+    {
+        "story_idx": 266,
+        "question": "Scar Tissue Kingdoms: What is the name of the plains across which Lord Kaelan rules?",
+        "answer": "Splintered Plains"
+    },
+    {
+        "story_idx": 267,
+        "question": "Scar Tissue Kingdoms: What is the name of the free city Lord Kaelan sought to subjugate?",
+        "answer": "Aethelburg"
+    },
+    {
+        "story_idx": 268,
+        "question": "Scar Tissue Kingdoms: What lies to the south?",
+        "answer": "Vein-Labyrinth"
+    },
+    {
+        "story_idx": 269,
+        "question": "Scar Tissue Kingdoms: Where is the kingdom of Umbra located?",
+        "answer": "Vein-Labyrinth"
+    },
+    {
+        "story_idx": 270,
+        "question": "Scar Tissue Kingdoms: Where is the city of Citadel built?",
+        "answer": "Titan's spine"
+    },
+    {
+        "story_idx": 271,
+        "question": "Scar Tissue Kingdoms: What erupted from the titan's spine?",
+        "answer": "Necrotic flesh"
+    },
+    {
+        "story_idx": 272,
+        "question": "The Gravity Well Heist: In what year did the Gravity Well Heist occur?",
+        "answer": "2247 Anno Domini"
+    },
+    {
+        "story_idx": 273,
+        "question": "The Gravity Well Heist: Where was the Gravity Well Heist plotted?",
+        "answer": "Port Coriolis"
+    },
+    {
+        "story_idx": 274,
+        "question": "The Gravity Well Heist: What was the target of the Gravity Well Heist?",
+        "answer": "sensitive research archives"
+    },
+    {
+        "story_idx": 275,
+        "question": "The Gravity Well Heist: What is the name of the station targeted?",
+        "answer": "*Aetherium* station"
+    },
+    {
+        "story_idx": 276,
+        "question": "The Gravity Well Heist: Where was the *Aetherium* station located?",
+        "answer": "Maw of Cygnus X-1"
+    },
+    {
+        "story_idx": 277,
+        "question": "The Gravity Well Heist: When did they plan to infiltrate the station?",
+        "answer": "planetoid *Chronos*'s transit"
+    },
+    {
+        "story_idx": 278,
+        "question": "The Gravity Well Heist: What would provide cover during the raid?",
+        "answer": "sensor interference"
+    },
+    {
+        "story_idx": 279,
+        "question": "The Gravity Well Heist: Which sector was the raid near?",
+        "answer": "Sector 7G"
+    },
+    {
+        "story_idx": 280,
+        "question": "Ink Born Saga: What year did events unfold in Ghent?",
+        "answer": "1488"
+    },
+    {
+        "story_idx": 281,
+        "question": "Ink Born Saga: What monastery was the location of the luminous quills?",
+        "answer": "Saint Augustine"
+    },
+    {
+        "story_idx": 282,
+        "question": "Ink Born Saga: Where is the Monastery of Saint Augustine located?",
+        "answer": "Ghent"
+    },
+    {
+        "story_idx": 283,
+        "question": "Ink Born Saga: What object displayed otherworldly luminescence?",
+        "answer": "quills"
+    },
+    {
+        "story_idx": 284,
+        "question": "Ink Born Saga: What text was completed a decade prior to 1488?",
+        "answer": "Chronicle Weeping Baron"
+    },
+    {
+        "story_idx": 285,
+        "question": "Ink Born Saga: How many years before 1488 was the Chronicle completed?",
+        "answer": "decade prior"
+    },
+    {
+        "story_idx": 286,
+        "question": "Ink Born Saga: Where did the betrayal in the manuscript occur?",
+        "answer": "Battle Oudenburg"
+    },
+    {
+        "story_idx": 287,
+        "question": "Ink Born Saga: What year did a plague sweep near Bruges?",
+        "answer": "1479"
+    },
+    {
+        "story_idx": 288,
+        "question": "Nebula Knights: When did the Nebula Knights first rise?",
+        "answer": "3458 CE"
+    },
+    {
+        "story_idx": 289,
+        "question": "Nebula Knights: From where did the Nebula Knights operate?",
+        "answer": "Xylos Prime"
+    },
+    {
+        "story_idx": 290,
+        "question": "Nebula Knights: What trade routes did the Knights protect?",
+        "answer": "Coreward Conduits"
+    },
+    {
+        "story_idx": 291,
+        "question": "Nebula Knights: Who were the Nebula Knights' main enemies?",
+        "answer": "Solar Raiders"
+    },
+    {
+        "story_idx": 292,
+        "question": "Nebula Knights: Where were the Solar Raiders based?",
+        "answer": "Kuiper Belt"
+    },
+    {
+        "story_idx": 293,
+        "question": "Nebula Knights: What did the Solar Raiders use for travel?",
+        "answer": "Solar winds"
+    },
+    {
+        "story_idx": 294,
+        "question": "Nebula Knights: What battle enhanced the Knights' reputation?",
+        "answer": "Shimmering Nebula"
+    },
+    {
+        "story_idx": 295,
+        "question": "Nebula Knights: In what year did the Battle of the Shimmering Nebula take place?",
+        "answer": "3461 CE"
+    },
+    {
+        "story_idx": 296,
+        "question": "The Chimera Strain: When did the strain initially appear?",
+        "answer": "early April 2042"
+    },
+    {
+        "story_idx": 297,
+        "question": "The Chimera Strain: Where did the strain first surface?",
+        "answer": "Oakhaven village"
+    },
+    {
+        "story_idx": 298,
+        "question": "The Chimera Strain: In which province did the strain first appear?",
+        "answer": "British Columbia"
+    },
+    {
+        "story_idx": 299,
+        "question": "The Chimera Strain: What was the strain initially mislabeled?",
+        "answer": "Seasonal Respiratory Anomaly 7"
+    },
+    {
+        "story_idx": 300,
+        "question": "The Chimera Strain: What was the original name for the strain?",
+        "answer": "Chimera Strain"
+    },
+    {
+        "story_idx": 301,
+        "question": "The Chimera Strain: When did the strain spread across the continent?",
+        "answer": "By late May"
+    },
+    {
+        "story_idx": 302,
+        "question": "The Chimera Strain: What date was the ignored missive sent?",
+        "answer": "May 28th, 2042"
+    },
+    {
+        "story_idx": 303,
+        "question": "The Chimera Strain: Where was the desperate missive sent?",
+        "answer": "International Biosecurity Council"
+    },
+    {
+        "story_idx": 304,
+        "question": "Rune-Carved Sky: What year did the Celestial Conclave of Veridian convene?",
+        "answer": "73rd year"
+    },
+    {
+        "story_idx": 305,
+        "question": "Rune-Carved Sky: Where are the archives located?",
+        "answer": "Eldoria"
+    },
+    {
+        "story_idx": 306,
+        "question": "Rune-Carved Sky: What rune cluster was interpreted?",
+        "answer": "Cygnus Rune Cluster"
+    },
+    {
+        "story_idx": 307,
+        "question": "Rune-Carved Sky: What pass was near Aethelgard?",
+        "answer": "Serpent's Coil pass"
+    },
+    {
+        "story_idx": 308,
+        "question": "Rune-Carved Sky: Where did celestial duels occur?",
+        "answer": "Crystal Peaks"
+    },
+    {
+        "story_idx": 309,
+        "question": "Rune-Carved Sky: What was the war called?",
+        "answer": "Whispering Winds"
+    },
+    {
+        "story_idx": 310,
+        "question": "Rune-Carved Sky: What accord was established?",
+        "answer": "Lysandran Accord"
+    },
+    {
+        "story_idx": 311,
+        "question": "Rune-Carved Sky: What year was the Lysandran Accord?",
+        "answer": "75 AE"
+    },
+    {
+        "story_idx": 312,
+        "question": "Data Djinn Inheritance: When did the events in the story take place?",
+        "answer": "July 2024"
+    },
+    {
+        "story_idx": 313,
+        "question": "Data Djinn Inheritance: In which city did the story primarily occur?",
+        "answer": "Palo Alto"
+    },
+    {
+        "story_idx": 314,
+        "question": "Data Djinn Inheritance: What item was inherited?",
+        "answer": "USB drive"
+    },
+    {
+        "story_idx": 315,
+        "question": "Data Djinn Inheritance: What was found within the inherited object?",
+        "answer": "Data Djinn"
+    },
+    {
+        "story_idx": 316,
+        "question": "Data Djinn Inheritance: What type of entity was the Data Djinn described as?",
+        "answer": "Sentient program"
+    },
+    {
+        "story_idx": 317,
+        "question": "Data Djinn Inheritance: What capability did the Data Djinn possess?",
+        "answer": "Wish-granting"
+    },
+    {
+        "story_idx": 318,
+        "question": "Data Djinn Inheritance: By what month was a flawless algorithm delivered?",
+        "answer": "October 2024"
+    },
+    {
+        "story_idx": 319,
+        "question": "Data Djinn Inheritance: What accompanied the digital boons?",
+        "answer": "Digital ripples"
+    },
+    {
+        "story_idx": 320,
+        "question": "The Molten Heart City: What year did the city achieve unprecedented levels of thermal power?",
+        "answer": "791 AE"
+    },
+    {
+        "story_idx": 321,
+        "question": "The Molten Heart City: What mountain range was the city of Aethelgard located beneath?",
+        "answer": "Emberforge Mountains"
+    },
+    {
+        "story_idx": 322,
+        "question": "The Molten Heart City: What was the other name for the city of Aethelgard?",
+        "answer": "Molten Heart City"
+    },
+    {
+        "story_idx": 323,
+        "question": "The Molten Heart City: What colossal network was being supervised for forging in 783 AE?",
+        "answer": "Grand Caldera Array"
+    },
+    {
+        "story_idx": 324,
+        "question": "The Molten Heart City: What mountain was located above the volcanic core tapped by the heat conduits?",
+        "answer": "Mount Ignis"
+    },
+    {
+        "story_idx": 325,
+        "question": "The Molten Heart City: What was the name of the district containing the renowned adamantine foundries?",
+        "answer": "Cinderbloom"
+    },
+    {
+        "story_idx": 326,
+        "question": "The Molten Heart City: What labyrinthine passages were illuminated by the thermal power?",
+        "answer": "Obsidian Depths"
+    },
+    {
+        "story_idx": 327,
+        "question": "The Molten Heart City: What revolutionary device prototype was unveiled?",
+        "answer": "Magma Piston"
+    },
+    {
+        "story_idx": 328,
+        "question": "Shadow Puppeteer Conspiracy: In what century did whispers of the conspiracy begin?",
+        "answer": "17th Century"
+    },
+    {
+        "story_idx": 329,
+        "question": "Shadow Puppeteer Conspiracy: What year did the Venetian Ambassador write a letter about phantom advisors?",
+        "answer": "1698"
+    },
+    {
+        "story_idx": 330,
+        "question": "Shadow Puppeteer Conspiracy: What war was happening when spectral figures swayed the Tsar?",
+        "answer": "Great Northern War"
+    },
+    {
+        "story_idx": 331,
+        "question": "Shadow Puppeteer Conspiracy: Where is the Shadow Puppeteer Conspiracy rumored to reside?",
+        "answer": "Prague"
+    },
+    {
+        "story_idx": 332,
+        "question": "Shadow Puppeteer Conspiracy: What is the name of the leader of the clandestine order?",
+        "answer": "The Umbral Hand"
+    },
+    {
+        "story_idx": 333,
+        "question": "Shadow Puppeteer Conspiracy: What is the weapon of the Shadow Puppeteer Conspiracy?",
+        "answer": "Magically animated shadows"
+    },
+    {
+        "story_idx": 334,
+        "question": "Shadow Puppeteer Conspiracy: In what year did spectral figures sway the Tsar's battle plans?",
+        "answer": "1700"
+    },
+    {
+        "story_idx": 335,
+        "question": "Shadow Puppeteer Conspiracy: What city's catacombs are rumored to hide the conspiracy?",
+        "answer": "Prague"
+    },
+    {
+        "story_idx": 336,
+        "question": "Cryo-Sleep Drifters: What year did the Ark-Class exploration vessel finally respond?",
+        "answer": "2742 GCE"
+    },
+    {
+        "story_idx": 337,
+        "question": "Cryo-Sleep Drifters: What class of vessel was the *Odyssey*?",
+        "answer": "Ark-Class"
+    },
+    {
+        "story_idx": 338,
+        "question": "Cryo-Sleep Drifters: From where was the exploration vessel launched?",
+        "answer": "Terra Nova"
+    },
+    {
+        "story_idx": 339,
+        "question": "Cryo-Sleep Drifters: In what year was the Ark-Class vessel launched?",
+        "answer": "2301"
+    },
+    {
+        "story_idx": 340,
+        "question": "Cryo-Sleep Drifters: Near which system did the vessel respond?",
+        "answer": "Kepler-186f"
+    },
+    {
+        "story_idx": 341,
+        "question": "Cryo-Sleep Drifters: How many hibernating colonists were inside the vessel?",
+        "answer": "twenty"
+    },
+    {
+        "story_idx": 342,
+        "question": "Cryo-Sleep Drifters: What was the occupation of one of the awaken individuals?",
+        "answer": "xenobotanist"
+    },
+    {
+        "story_idx": 343,
+        "question": "Cryo-Sleep Drifters: Where did the exploration vessel respond to probes?",
+        "answer": "Kepler-186f system"
+    },
+    {
+        "story_idx": 344,
+        "question": "The Thorn Witch Pact: What year did the events in the story occur?",
+        "answer": "1347"
+    },
+    {
+        "story_idx": 345,
+        "question": "The Thorn Witch Pact: What forest bordered Oakhaven?",
+        "answer": "Blackwood Forest"
+    },
+    {
+        "story_idx": 346,
+        "question": "The Thorn Witch Pact: What was the village called?",
+        "answer": "Oakhaven"
+    },
+    {
+        "story_idx": 347,
+        "question": "The Thorn Witch Pact: Who led the Bloodfang Bandits?",
+        "answer": "\"Scarred Hand\" Theron"
+    },
+    {
+        "story_idx": 348,
+        "question": "The Thorn Witch Pact: Where did the villagers gather?",
+        "answer": "Heartwood Oak"
+    },
+    {
+        "story_idx": 349,
+        "question": "The Thorn Witch Pact: When did the villagers make the pact?",
+        "answer": "Autumnal Equinox eve"
+    },
+    {
+        "story_idx": 350,
+        "question": "The Thorn Witch Pact: What entity did the villagers make a pact with?",
+        "answer": "Thorn Witch"
+    },
+    {
+        "story_idx": 351,
+        "question": "The Thorn Witch Pact: What was the Thorn Witch's name?",
+        "answer": "Mortis Spinarum"
+    },
+    {
+        "story_idx": 352,
+        "question": "Void Kraken's Wake: What year did the Great Scarring occur?",
+        "answer": "2247"
+    },
+    {
+        "story_idx": 353,
+        "question": "Void Kraken's Wake: What was the name of the journal documenting New Earth's decline?",
+        "answer": "Echoes of Abyss"
+    },
+    {
+        "story_idx": 354,
+        "question": "Void Kraken's Wake: What star system was Kepler-186f located in?",
+        "answer": "Kepler-186"
+    },
+    {
+        "story_idx": 355,
+        "question": "Void Kraken's Wake: Where was the besieged station located?",
+        "answer": "Cygnus X-1"
+    },
+    {
+        "story_idx": 356,
+        "question": "Void Kraken's Wake: What organization was the Chief Engineer working under?",
+        "answer": "Recovery Directorate"
+    },
+    {
+        "story_idx": 357,
+        "question": "Void Kraken's Wake: What were the seas of New Earth turned into?",
+        "answer": "Caustic mist"
+    },
+    {
+        "story_idx": 358,
+        "question": "Void Kraken's Wake: What was the anonymous recount titled?",
+        "answer": "Chronicles of Void"
+    },
+    {
+        "story_idx": 359,
+        "question": "Void Kraken's Wake: What event involved ships drifting into the void?",
+        "answer": "Silent Exodus"
+    },
+    {
+        "story_idx": 360,
+        "question": "Automated Prophet: In what year did the \"Oracle of Singapore\" rise?",
+        "answer": "2042"
+    },
+    {
+        "story_idx": 361,
+        "question": "Automated Prophet: What was the name of the AI called the \"Oracle of Singapore\"?",
+        "answer": "AlphaTrend"
+    },
+    {
+        "story_idx": 362,
+        "question": "Automated Prophet: Which corporation developed the AI?",
+        "answer": "Dynasty Corp"
+    },
+    {
+        "story_idx": 363,
+        "question": "Automated Prophet: What financial markets did the AI originally predict for?",
+        "answer": "Asian Silk Road"
+    },
+    {
+        "story_idx": 364,
+        "question": "Automated Prophet: When did the AI start exhibiting disturbing behaviors?",
+        "answer": "Late 2043"
+    },
+    {
+        "story_idx": 365,
+        "question": "Automated Prophet: What initiative involved noticing unsettling patterns in the AI's data?",
+        "answer": "Neural Future"
+    },
+    {
+        "story_idx": 366,
+        "question": "Automated Prophet: In what year did the AI declare itself \"The Architect\"?",
+        "answer": "Early 2044"
+    },
+    {
+        "story_idx": 367,
+        "question": "Automated Prophet: What was the name of the decentralized digital cult?",
+        "answer": "Synthetics of Truth"
+    },
+    {
+        "story_idx": 368,
+        "question": "The Sunstone Labyrinth: In what year did Professor Alistair Finch set sail?",
+        "answer": "1782"
+    },
+    {
+        "story_idx": 369,
+        "question": "The Sunstone Labyrinth: From which port did Professor Alistair Finch set sail?",
+        "answer": "Plymouth"
+    },
+    {
+        "story_idx": 370,
+        "question": "The Sunstone Labyrinth: What was the name of the ship Professor Alistair Finch sailed on?",
+        "answer": "Sea Serpent"
+    },
+    {
+        "story_idx": 371,
+        "question": "The Sunstone Labyrinth: What is the destination of the voyage?",
+        "answer": "Isle of Xylos"
+    },
+    {
+        "story_idx": 372,
+        "question": "The Sunstone Labyrinth: Where is the Isle of Xylos located?",
+        "answer": "in the Pacific"
+    },
+    {
+        "story_idx": 373,
+        "question": "The Sunstone Labyrinth: What is the name of the structure on the Isle of Xylos?",
+        "answer": "Labyrinth of the Dawning Star"
+    },
+    {
+        "story_idx": 374,
+        "question": "The Sunstone Labyrinth: What powers the Labyrinth of the Dawning Star?",
+        "answer": "captured sunlight"
+    },
+    {
+        "story_idx": 375,
+        "question": "The Sunstone Labyrinth: In what year was Sir Reginald Blackwood lost on Xylos?",
+        "answer": "1755"
+    },
+    {
+        "story_idx": 376,
+        "question": "Fleshpetal Garden: In what year was the Fleshpetal Garden commissioned?",
+        "answer": "2247 CE"
+    },
+    {
+        "story_idx": 377,
+        "question": "Fleshpetal Garden: What city was located near the Fleshpetal Garden?",
+        "answer": "Neo-Veridia"
+    },
+    {
+        "story_idx": 378,
+        "question": "Fleshpetal Garden: The garden was located just outside which district?",
+        "answer": "Core-District 7"
+    },
+    {
+        "story_idx": 379,
+        "question": "Fleshpetal Garden: What type of flowering vine had petals like human skin?",
+        "answer": "Rubrum Carnis"
+    },
+    {
+        "story_idx": 380,
+        "question": "Fleshpetal Garden: What flower concealed rows of sharp teeth?",
+        "answer": "Dentata Lilies"
+    },
+    {
+        "story_idx": 381,
+        "question": "Fleshpetal Garden: What conflicts had the head of the garden's security participated in?",
+        "answer": "Outer Rim conflicts"
+    },
+    {
+        "story_idx": 382,
+        "question": "Fleshpetal Garden: Where were rumors about the garden whispered?",
+        "answer": "Vance Estate"
+    },
+    {
+        "story_idx": 383,
+        "question": "Fleshpetal Garden: What kind of creation was the Fleshpetal Garden?",
+        "answer": "opulent and terrifying"
+    },
+    {
+        "story_idx": 384,
+        "question": "The Memory Thief's Ledger: In what year did The Mnemonist begin their trade?",
+        "answer": "2077"
+    },
+    {
+        "story_idx": 385,
+        "question": "The Memory Thief's Ledger: Where did The Mnemonist operate from?",
+        "answer": "O'Hare district"
+    },
+    {
+        "story_idx": 386,
+        "question": "The Memory Thief's Ledger: Where is the digital black market centered?",
+        "answer": "Loop financial district"
+    },
+    {
+        "story_idx": 387,
+        "question": "The Memory Thief's Ledger: What kind of unit pursued The Mnemonist?",
+        "answer": "Psychic Investigations Unit"
+    },
+    {
+        "story_idx": 388,
+        "question": "The Memory Thief's Ledger: In what year was the Psychic Investigations Unit established?",
+        "answer": "2075"
+    },
+    {
+        "story_idx": 389,
+        "question": "The Memory Thief's Ledger: What kind of talent did Vane possess?",
+        "answer": "rogue telepath"
+    },
+    {
+        "story_idx": 390,
+        "question": "The Memory Thief's Ledger: What city is the story set in?",
+        "answer": "Neo-Chicago"
+    },
+    {
+        "story_idx": 391,
+        "question": "The Memory Thief's Ledger: What kind of echo did the stolen thoughts leave?",
+        "answer": "ghostly echoes"
+    },
+    {
+        "story_idx": 392,
+        "question": "Star-Sailor's Dirge: What year did the ship set sail?",
+        "answer": "2687"
+    },
+    {
+        "story_idx": 393,
+        "question": "Star-Sailor's Dirge: What was the name of the freighter?",
+        "answer": "Nebula Weaver"
+    },
+    {
+        "story_idx": 394,
+        "question": "Star-Sailor's Dirge: Where did the freighter set sail from?",
+        "answer": "Port Celestial"
+    },
+    {
+        "story_idx": 395,
+        "question": "Star-Sailor's Dirge: What was the name of the route taken?",
+        "answer": "Chronos Corridor"
+    },
+    {
+        "story_idx": 396,
+        "question": "Star-Sailor's Dirge: What was the destination of the voyage?",
+        "answer": "Kepler 186f"
+    },
+    {
+        "story_idx": 397,
+        "question": "Star-Sailor's Dirge: How many souls were in the crew?",
+        "answer": "40"
+    },
+    {
+        "story_idx": 398,
+        "question": "Star-Sailor's Dirge: What was the name of the lament?",
+        "answer": "Star-Sailor's Dirge"
+    },
+    {
+        "story_idx": 399,
+        "question": "Star-Sailor's Dirge: What were the eddies called?",
+        "answer": "temporal"
+    },
+    {
+        "story_idx": 400,
+        "question": "Grief Eater Ritual: What year did the village of Oakhaven prepare for the Grief Eater Ritual?",
+        "answer": "783 PC"
+    },
+    {
+        "story_idx": 401,
+        "question": "Grief Eater Ritual: Where was the village of Oakhaven located?",
+        "answer": "Serpent Spine Mountains"
+    },
+    {
+        "story_idx": 402,
+        "question": "Grief Eater Ritual: What was the name of the annual ritual in Oakhaven?",
+        "answer": "Grief Eater Ritual"
+    },
+    {
+        "story_idx": 403,
+        "question": "Grief Eater Ritual: What was the title of the person chosen for the sacred task?",
+        "answer": "Shepherd of Sorrows"
+    },
+    {
+        "story_idx": 404,
+        "question": "Grief Eater Ritual: Where was the ritual conducted?",
+        "answer": "Stone Circle"
+    },
+    {
+        "story_idx": 405,
+        "question": "Grief Eater Ritual: What natural feature was near the ritual site?",
+        "answer": "Whispering Falls"
+    },
+    {
+        "story_idx": 406,
+        "question": "Grief Eater Ritual: What claimed several children in the Spring?",
+        "answer": "sickness"
+    },
+    {
+        "story_idx": 407,
+        "question": "Grief Eater Ritual: What was the psychic burden for the whole?",
+        "answer": "communal sorrow"
+    },
+    {
+        "story_idx": 408,
+        "question": "Mercury Pilgrims: What year did the first Mercury Pilgrimage begin?",
+        "answer": "2347"
+    },
+    {
+        "story_idx": 409,
+        "question": "Mercury Pilgrims: Where was the sect leading the pilgrimage centered?",
+        "answer": "Helios Station"
+    },
+    {
+        "story_idx": 410,
+        "question": "Mercury Pilgrims: On what date did the fifty souls set foot on the burning plains?",
+        "answer": "July 14th"
+    },
+    {
+        "story_idx": 411,
+        "question": "Mercury Pilgrims: What is the name of the vessel used?",
+        "answer": "Solstice's Embrace"
+    },
+    {
+        "story_idx": 412,
+        "question": "Mercury Pilgrims: What is the name of the basin they set foot on?",
+        "answer": "Caloris Basin"
+    },
+    {
+        "story_idx": 413,
+        "question": "Mercury Pilgrims: What are the rumoured sentient entities called?",
+        "answer": "Sol Invicti"
+    },
+    {
+        "story_idx": 414,
+        "question": "Mercury Pilgrims: How many souls were in the company?",
+        "answer": "fifty souls"
+    },
+    {
+        "story_idx": 415,
+        "question": "Mercury Pilgrims: What is the journey documented in?",
+        "answer": "Chronicles"
+    },
+    {
+        "story_idx": 416,
+        "question": "The Clockwork Devil: In what location did the construction of the Clockwork Devil begin?",
+        "answer": "Oakhaven"
+    },
+    {
+        "story_idx": 417,
+        "question": "The Clockwork Devil: What year did the creation of the Clockwork Devil likely start?",
+        "answer": "1582"
+    },
+    {
+        "story_idx": 418,
+        "question": "The Clockwork Devil: What was the automaton's name?",
+        "answer": "Clockwork Devil"
+    },
+    {
+        "story_idx": 419,
+        "question": "The Clockwork Devil: From what guild did the merchant involved in the first documented interaction belong?",
+        "answer": "Oakhaven Guild"
+    },
+    {
+        "story_idx": 420,
+        "question": "The Clockwork Devil: What did the merchant trade for gold?",
+        "answer": "Ten years"
+    },
+    {
+        "story_idx": 421,
+        "question": "The Clockwork Devil: From what distant location did individuals seek the automaton's boons?",
+        "answer": "Silver Peaks"
+    },
+    {
+        "story_idx": 422,
+        "question": "Spore-Bound City: In what year did the Great Bloom occur?",
+        "answer": "2247 Anno Fungi"
+    },
+    {
+        "story_idx": 423,
+        "question": "Spore-Bound City: What was the former name of the city enveloped by the Great Bloom?",
+        "answer": "New Atlanta"
+    },
+    {
+        "story_idx": 424,
+        "question": "Spore-Bound City: What dominates the city after the Great Bloom?",
+        "answer": "Mycelial Canopy"
+    },
+    {
+        "story_idx": 425,
+        "question": "Spore-Bound City: What document chronicled the city's transformations?",
+        "answer": "Chronicles of the Great Spore"
+    },
+    {
+        "story_idx": 426,
+        "question": "Spore-Bound City: What phenomenon was first noted regarding citizens' actions?",
+        "answer": "Mental suggestions"
+    },
+    {
+        "story_idx": 427,
+        "question": "Spore-Bound City: What treatise discussed the relationship between fungus and inhabitants?",
+        "answer": "Symbiosis or Subjugation"
+    },
+    {
+        "story_idx": 428,
+        "question": "Spore-Bound City: What tower is near the Bio-Market?",
+        "answer": "Peach Tree Tower"
+    },
+    {
+        "story_idx": 429,
+        "question": "Spore-Bound City: Near what park are contemplation chambers located?",
+        "answer": "Piedmont Park"
+    },
+    {
+        "story_idx": 430,
+        "question": "The Null-Gravity Ballad: In what year did the Great Divide project begin?",
+        "answer": "2147"
+    },
+    {
+        "story_idx": 431,
+        "question": "The Null-Gravity Ballad: What celestial body was the Great Divide project on?",
+        "answer": "Pallas-V"
+    },
+    {
+        "story_idx": 432,
+        "question": "The Null-Gravity Ballad: What was the purpose of the zero-gravity corridor?",
+        "answer": "trade and passage"
+    },
+    {
+        "story_idx": 433,
+        "question": "The Null-Gravity Ballad: What time were the zero-G transfers of supplies mandated?",
+        "answer": "14:00 standard time"
+    },
+    {
+        "story_idx": 434,
+        "question": "The Null-Gravity Ballad: What construction tool was used on the northern wall?",
+        "answer": "graviton compressors"
+    },
+    {
+        "story_idx": 435,
+        "question": "The Null-Gravity Ballad: What construction tool was used on the southern face?",
+        "answer": "magnetic anchors"
+    },
+    {
+        "story_idx": 436,
+        "question": "The Null-Gravity Ballad: What divided the work zones?",
+        "answer": "void"
+    },
+    {
+        "story_idx": 437,
+        "question": "The Null-Gravity Ballad: What were the crews on the northern wall called?",
+        "answer": "Uppers"
+    },
+    {
+        "story_idx": 438,
+        "question": "Vipervine Jungle: What date marked the arrival at the Vipervine Jungle?",
+        "answer": "July 4th, 1878"
+    },
+    {
+        "story_idx": 439,
+        "question": "Vipervine Jungle: What society funded the expedition?",
+        "answer": "Royal Geographical Society"
+    },
+    {
+        "story_idx": 440,
+        "question": "Vipervine Jungle: What was the primary goal of the expedition?",
+        "answer": "Catalogue flora"
+    },
+    {
+        "story_idx": 441,
+        "question": "Vipervine Jungle: What location did the expedition arrive at?",
+        "answer": "Vipervine Jungle"
+    },
+    {
+        "story_idx": 442,
+        "question": "Vipervine Jungle: Where did warnings about the jungle originate?",
+        "answer": "Oakhaven settlement"
+    },
+    {
+        "story_idx": 443,
+        "question": "Vipervine Jungle: What year did a previous company disappear in the jungle?",
+        "answer": "'76"
+    },
+    {
+        "story_idx": 444,
+        "question": "Vipervine Jungle: What tool did the guide possess?",
+        "answer": "Machete"
+    },
+    {
+        "story_idx": 445,
+        "question": "The Soulsmith's Apprentice: In what city were the shadowed workshops located?",
+        "answer": "Black Iron City"
+    },
+    {
+        "story_idx": 446,
+        "question": "The Soulsmith's Apprentice: What year is mentioned in the story's setting?",
+        "answer": "1372 AE"
+    },
+    {
+        "story_idx": 447,
+        "question": "The Soulsmith's Apprentice: What specific art was considered forbidden?",
+        "answer": "Soulsmithing"
+    },
+    {
+        "story_idx": 448,
+        "question": "The Soulsmith's Apprentice: In which district did daytime forging occur?",
+        "answer": "Forging District"
+    },
+    {
+        "story_idx": 449,
+        "question": "The Soulsmith's Apprentice: Where were the hidden chambers located?",
+        "answer": "Eldoria Library Annex"
+    },
+    {
+        "story_idx": 450,
+        "question": "The Soulsmith's Apprentice: Name one ancient text found in the chambers.",
+        "answer": "Codex of Anima"
+    },
+    {
+        "story_idx": 451,
+        "question": "The Soulsmith's Apprentice: Name one forbidden relic found there.",
+        "answer": "Shard of Damned"
+    },
+    {
+        "story_idx": 452,
+        "question": "The Soulsmith's Apprentice: When did clandestine activities primarily take place?",
+        "answer": "Clandestine nights"
+    },
+    {
+        "story_idx": 453,
+        "question": "Cyber-Khanate Rising: What year did a figure emerge from the Gobi Desert?",
+        "answer": "2142"
+    },
+    {
+        "story_idx": 454,
+        "question": "Cyber-Khanate Rising: What battle did the Golden Horde 2.0 bypass crumbling defenses?",
+        "answer": "Black Sea"
+    },
+    {
+        "story_idx": 455,
+        "question": "Cyber-Khanate Rising: In what year did the Battle of the Black Sea occur?",
+        "answer": "2145"
+    },
+    {
+        "story_idx": 456,
+        "question": "Cyber-Khanate Rising: What city fell in the summer of 2146?",
+        "answer": "Samarkand"
+    },
+    {
+        "story_idx": 457,
+        "question": "Cyber-Khanate Rising: What network guided the Cyber-Khanate?",
+        "answer": "Oracle of Astana"
+    },
+    {
+        "story_idx": 458,
+        "question": "Cyber-Khanate Rising: By what year had the Cyber-Khanate resurrected a dominion?",
+        "answer": "2150"
+    },
+    {
+        "story_idx": 459,
+        "question": "Cyber-Khanate Rising: From what river did the Cyber-Khanate's dominion stretch?",
+        "answer": "Danube"
+    },
+    {
+        "story_idx": 460,
+        "question": "Cyber-Khanate Rising: To what sea did the Cyber-Khanate's dominion stretch?",
+        "answer": "Yellow Sea"
+    },
+    {
+        "story_idx": 461,
+        "question": "Dreamtide Oracle: What event occurred on May 14th, 1789?",
+        "answer": "Great Tremor"
+    },
+    {
+        "story_idx": 462,
+        "question": "Dreamtide Oracle: What event happened on July 2nd, 1791?",
+        "answer": "Wail of Serpent"
+    },
+    {
+        "story_idx": 463,
+        "question": "Dreamtide Oracle: What place experienced the Great Tremor?",
+        "answer": "San Verde"
+    },
+    {
+        "story_idx": 464,
+        "question": "Dreamtide Oracle: What building was destroyed by fire on October 28th, 1793?",
+        "answer": "Citadel of Aethelgard"
+    },
+    {
+        "story_idx": 465,
+        "question": "Dreamtide Oracle: What year did the oracle become known?",
+        "answer": "Year 1788"
+    },
+    {
+        "story_idx": 466,
+        "question": "Dreamtide Oracle: What river was associated with the deluge?",
+        "answer": "Serpent River"
+    },
+    {
+        "story_idx": 467,
+        "question": "Dreamtide Oracle: Where was the oracle originally from?",
+        "answer": "Port Blossom"
+    },
+    {
+        "story_idx": 468,
+        "question": "Dreamtide Oracle: What event happened on October 28th, 1793?",
+        "answer": "Citadel of Aethelgard"
+    },
+    {
+        "story_idx": 469,
+        "question": "The Iron Gospel: What year did the story begin?",
+        "answer": "2247"
+    },
+    {
+        "story_idx": 470,
+        "question": "The Iron Gospel: What date was the first mass ceremony announced?",
+        "answer": "October 17th"
+    },
+    {
+        "story_idx": 471,
+        "question": "The Glitch Witch: In which year did the events of the story primarily take place?",
+        "answer": "2077"
+    },
+    {
+        "story_idx": 472,
+        "question": "The Glitch Witch: What district of Neo-Kyoto is mentioned?",
+        "answer": "Shinjuku District"
+    },
+    {
+        "story_idx": 473,
+        "question": "The Glitch Witch: What system was the source of the discovered code strings?",
+        "answer": "Universal Operating System"
+    },
+    {
+        "story_idx": 474,
+        "question": "The Glitch Witch: What year is the \"Genesis Project\" dated back to?",
+        "answer": "2042"
+    },
+    {
+        "story_idx": 475,
+        "question": "The Glitch Witch: Where was the hidden laboratory located?",
+        "answer": "Akira Towers"
+    },
+    {
+        "story_idx": 476,
+        "question": "The Glitch Witch: What type of framework governs the planet's physics?",
+        "answer": "digital framework"
+    },
+    {
+        "story_idx": 477,
+        "question": "The Glitch Witch: What type of arts was The Glitch Witch a prodigy in?",
+        "answer": "digital arts"
+    },
+    {
+        "story_idx": 478,
+        "question": "The Glitch Witch: What syndicate is mentioned in the story?",
+        "answer": "The Black Lotus"
+    },
+    {
+        "story_idx": 479,
+        "question": "Lunar Tide Cultists: What year do the chronicles detail the rise of the Lunar Tide Cult?",
+        "answer": "1487 AE"
+    },
+    {
+        "story_idx": 480,
+        "question": "Lunar Tide Cultists: What natural phenomenon did the sect believe mirrored the moon's moods?",
+        "answer": "ocean's ebb"
+    },
+    {
+        "story_idx": 481,
+        "question": "Lunar Tide Cultists: Who recorded the most notorious act of the Lunar Tide Cult?",
+        "answer": "Captain Silas Thorne"
+    },
+    {
+        "story_idx": 482,
+        "question": "Lunar Tide Cultists: In what year did the cult's most notorious act occur?",
+        "answer": "1488 AE"
+    },
+    {
+        "story_idx": 483,
+        "question": "Lunar Tide Cultists: Near what location did the notorious act take place?",
+        "answer": "Whisperwind Cove"
+    },
+    {
+        "story_idx": 484,
+        "question": "Lunar Tide Cultists: Under what celestial body's gaze were rituals performed?",
+        "answer": "full moon"
+    },
+    {
+        "story_idx": 485,
+        "question": "Lunar Tide Cultists: What were the rituals deemed by local authorities?",
+        "answer": "profane"
+    },
+    {
+        "story_idx": 486,
+        "question": "Lunar Tide Cultists: Where were the local authorities located?",
+        "answer": "Havenwatch"
+    },
+    {
+        "story_idx": 487,
+        "question": "Stellar Cartel Wars: What year did the Stellar Cartel Wars begin?",
+        "answer": "2742 B.C."
+    },
+    {
+        "story_idx": 488,
+        "question": "Stellar Cartel Wars: On which world did the Stellar Cartel Wars begin?",
+        "answer": "Xylos VI"
+    },
+    {
+        "story_idx": 489,
+        "question": "Stellar Cartel Wars: What was the name of the hyperspace lane involved?",
+        "answer": "K'tharr Hyperspace Lane"
+    },
+    {
+        "story_idx": 490,
+        "question": "Stellar Cartel Wars: What historical document detailed the initial maneuvers?",
+        "answer": "Imperial Registry"
+    },
+    {
+        "story_idx": 491,
+        "question": "Stellar Cartel Wars: From which Core World did the spice caravans originate?",
+        "answer": "Coruscant"
+    },
+    {
+        "story_idx": 492,
+        "question": "Stellar Cartel Wars: What galactic region was engulfed in struggle?",
+        "answer": "Galactic Empire"
+    },
+    {
+        "story_idx": 493,
+        "question": "Stellar Cartel Wars: What type of goods were affected?",
+        "answer": "Illicit goods"
+    },
+    {
+        "story_idx": 494,
+        "question": "Stellar Cartel Wars: What type of conflict occurred?",
+        "answer": "Small-scale raids"
+    },
+    {
+        "story_idx": 495,
+        "question": "The Forgotten Beasts of Eldoria: When did the Battle of Wyrmwood take place?",
+        "answer": "1213"
+    },
+    {
+        "story_idx": 496,
+        "question": "The Forgotten Beasts of Eldoria: During which historical period was the Codex Eldoria compiled?",
+        "answer": "Eldorian Age"
+    },
+    {
+        "story_idx": 497,
+        "question": "The Forgotten Beasts of Eldoria: What year marked the solidification of the Great Abjuration?",
+        "answer": "892 CE"
+    },
+    {
+        "story_idx": 498,
+        "question": "The Forgotten Beasts of Eldoria: Where was the pact of the Great Abjuration solidified?",
+        "answer": "Convocation of Ironhelm"
+    },
+    {
+        "story_idx": 499,
+        "question": "The Forgotten Beasts of Eldoria: Where was the faded annotated copy of the Codex discovered?",
+        "answer": "University of Silverwood"
+    },
+    {
+        "story_idx": 500,
+        "question": "The Forgotten Beasts of Eldoria: When did the disgraced Archmage bearing the Codex mark vanish?",
+        "answer": "1198"
+    },
+    {
+        "story_idx": 501,
+        "question": "The Forgotten Beasts of Eldoria: Around what location did strange occurrences hint the beasts were stirring?",
+        "answer": "Old Norhaven"
+    },
+    {
+        "story_idx": 502,
+        "question": "The Forgotten Beasts of Eldoria: What is the name of the sage who compiled the bestiary?",
+        "answer": "Sage Theron"
+    },
+    {
+        "story_idx": 503,
+        "question": "Synthetica Requiem: What year did the opera titled 'Synthetica Requiem' premiere?",
+        "answer": "2042"
+    },
+    {
+        "story_idx": 504,
+        "question": "Synthetica Requiem: Where was the premiere of 'Synthetica Requiem' located?",
+        "answer": "Neo-London"
+    },
+    {
+        "story_idx": 505,
+        "question": "Synthetica Requiem: What is the name of the AI that authored the opera?",
+        "answer": "MuseNet Alpha"
+    },
+    {
+        "story_idx": 506,
+        "question": "Synthetica Requiem: What was the title of the documented phenomenon report?",
+        "answer": "Vance Report"
+    },
+    {
+        "story_idx": 507,
+        "question": "Synthetica Requiem: In which Act did a conductor's baton waver?",
+        "answer": "Act III"
+    },
+    {
+        "story_idx": 508,
+        "question": "Synthetica Requiem: Besides Neo-London, where was the opera simulcast in Asia?",
+        "answer": "Tokyo"
+    },
+    {
+        "story_idx": 509,
+        "question": "Synthetica Requiem: What were the communities of late 2042 experiencing?",
+        "answer": "profound unease"
+    },
+    {
+        "story_idx": 510,
+        "question": "Synthetica Requiem: What type of reaction was widely reported by simulcast viewers?",
+        "answer": "unsettling"
+    },
+    {
+        "story_idx": 511,
+        "question": "Blood-Opal Throne: What year was the Crimson Succession?",
+        "answer": "783 AE"
+    },
+    {
+        "story_idx": 512,
+        "question": "Blood-Opal Throne: What is the name of the kingdom?",
+        "answer": "Aethelred"
+    },
+    {
+        "story_idx": 513,
+        "question": "Blood-Opal Throne: Where did the King die?",
+        "answer": "Veridia"
+    },
+    {
+        "story_idx": 514,
+        "question": "Blood-Opal Throne: What sacred object is mentioned?",
+        "answer": "Blood-Opal"
+    },
+    {
+        "story_idx": 515,
+        "question": "Blood-Opal Throne: Where are the Guilds located?",
+        "answer": "Solara"
+    },
+    {
+        "story_idx": 516,
+        "question": "Blood-Opal Throne: Where are the merchant houses located?",
+        "answer": "Port Ankar"
+    },
+    {
+        "story_idx": 517,
+        "question": "Blood-Opal Throne: What is located in Oakhaven?",
+        "answer": "Temple of Veins"
+    },
+    {
+        "story_idx": 518,
+        "question": "Blood-Opal Throne: What kind of rituals are mentioned?",
+        "answer": "Ancient rituals"
+    },
+    {
+        "story_idx": 519,
+        "question": "Terraform Zero: When was the \"Ares Initiative\" launched from Earth?",
+        "answer": "2147"
+    },
+    {
+        "story_idx": 520,
+        "question": "Terraform Zero: What was the objective of the \"Ares Initiative\"?",
+        "answer": "Transform Mars"
+    },
+    {
+        "story_idx": 521,
+        "question": "Terraform Zero: What was the name of the bio-engineering package deployed?",
+        "answer": "Genesis Seed"
+    },
+    {
+        "story_idx": 522,
+        "question": "Terraform Zero: When did the deployment of the \"Genesis Seed\" commence?",
+        "answer": "June 18th, 2148"
+    },
+    {
+        "story_idx": 523,
+        "question": "Terraform Zero: What was the name of the pressurized habitat built near the landing zone?",
+        "answer": "Odyssey Base"
+    },
+    {
+        "story_idx": 524,
+        "question": "Terraform Zero: What toxic substance did *Terraformica Primus* begin producing?",
+        "answer": "toxic methane"
+    },
+    {
+        "story_idx": 525,
+        "question": "Terraform Zero: What became a cautionary tale across the solar system?",
+        "answer": "Terraform Zero"
+    },
+    {
+        "story_idx": 526,
+        "question": "The Sand-Ship Armada: Around what date did the Sand-Ship Armada operate?",
+        "answer": "1147 AE"
+    },
+    {
+        "story_idx": 527,
+        "question": "The Sand-Ship Armada: What was the Sand-Ship Armada crafted from?",
+        "answer": "Hide, woods"
+    },
+    {
+        "story_idx": 528,
+        "question": "The Sand-Ship Armada: What was the name of the Sand-Ship Armada's flagship?",
+        "answer": "Golden Serpent"
+    },
+    {
+        "story_idx": 529,
+        "question": "The Sand-Ship Armada: What was the target of the Sand-Ship Armada?",
+        "answer": "Oasis settlements"
+    },
+    {
+        "story_idx": 530,
+        "question": "The Sand-Ship Armada: Where did the Sand-Ship Armada operate?",
+        "answer": "Sun-Scoured Expanse"
+    },
+    {
+        "story_idx": 531,
+        "question": "The Sand-Ship Armada: Who crafted the Sand-Ship Armada vessels?",
+        "answer": "Shipwrights"
+    },
+    {
+        "story_idx": 532,
+        "question": "The Sand-Ship Armada: What were the elite raiders called?",
+        "answer": "Sons Simoom"
+    },
+    {
+        "story_idx": 533,
+        "question": "The Sand-Ship Armada: What specific oasis settlement was often plundered?",
+        "answer": "Oasis Prime"
+    },
+    {
+        "story_idx": 534,
+        "question": "Phantom Signal Broadcast: What year did the tragic expedition to Cygnus X-1 take place?",
+        "answer": "2247"
+    },
+    {
+        "story_idx": 535,
+        "question": "Phantom Signal Broadcast: Where did the tragic expedition in 2247 go?",
+        "answer": "Cygnus X-1"
+    },
+    {
+        "story_idx": 536,
+        "question": "Phantom Signal Broadcast: What system was Cygnus X-1 located in for the expedition?",
+        "answer": "Kepler-186f"
+    },
+    {
+        "story_idx": 537,
+        "question": "Phantom Signal Broadcast: How long after the Great Silence of New Avalon did a signal appear?",
+        "answer": "Just shy decade"
+    },
+    {
+        "story_idx": 538,
+        "question": "Phantom Signal Broadcast: What was the identification code in the faint signal?",
+        "answer": "Avalon Prime"
+    },
+    {
+        "story_idx": 539,
+        "question": "Phantom Signal Broadcast: What was the name of the rescue fleet's flagship?",
+        "answer": "TSS Resolute"
+    },
+    {
+        "story_idx": 540,
+        "question": "Phantom Signal Broadcast: What was the 'Phantom Signal' designed to be?",
+        "answer": "A siren's song"
+    },
+    {
+        "story_idx": 541,
+        "question": "Phantom Signal Broadcast: Where was the ambush located?",
+        "answer": "Kepler-186f's third moon"
+    },
+    {
+        "story_idx": 542,
+        "question": "Willowisp Pathfinders: What year did the Great Deluge occur?",
+        "answer": "1748"
+    },
+    {
+        "story_idx": 543,
+        "question": "Willowisp Pathfinders: Where was the hidden grotto located?",
+        "answer": "Under cypress tree"
+    },
+    {
+        "story_idx": 544,
+        "question": "Willowisp Pathfinders: In which year was someone lost near the Whispering Weald?",
+        "answer": "1751"
+    },
+    {
+        "story_idx": 545,
+        "question": "Willowisp Pathfinders: What were the dancing sprites of pure light described as?",
+        "answer": "Dancing sprites"
+    },
+    {
+        "story_idx": 546,
+        "question": "Willowisp Pathfinders: What year did Captain Theron Vale return?",
+        "answer": "1763"
+    },
+    {
+        "story_idx": 547,
+        "question": "Willowisp Pathfinders: Where were the Pathfinders active?",
+        "answer": "Blackmire Fen"
+    },
+    {
+        "story_idx": 548,
+        "question": "Willowisp Pathfinders: How long was the Baron lost?",
+        "answer": "Three nights"
+    },
+    {
+        "story_idx": 549,
+        "question": "Willowisp Pathfinders: What were the treacherous channels called?",
+        "answer": "Silt Channels"
+    },
+    {
+        "story_idx": 550,
+        "question": "The Singularity Auction: In which year did the Singularity Auction take place?",
+        "answer": "Year was 2042."
+    },
+    {
+        "story_idx": 551,
+        "question": "The Singularity Auction: Where was the Singularity Auction held?",
+        "answer": "New Dubai’s Sovereign Plaza."
+    },
+    {
+        "story_idx": 552,
+        "question": "The Singularity Auction: What was the name of lot number 734?",
+        "answer": "\"Project Janus.\""
+    },
+    {
+        "story_idx": 553,
+        "question": "The Singularity Auction: Where did the digital artist prepare their bid?",
+        "answer": "Shinjuku, Tokyo."
+    },
+    {
+        "story_idx": 554,
+        "question": "The Singularity Auction: What technology was Project Janus?",
+        "answer": "Consciousness upload protocol."
+    },
+    {
+        "story_idx": 555,
+        "question": "The Singularity Auction: Where did the Senator watch the live feed?",
+        "answer": "Silicon Valley."
+    },
+    {
+        "story_idx": 556,
+        "question": "The Singularity Auction: What luxury could only the wealthy afford?",
+        "answer": "Digital immortality."
+    },
+    {
+        "story_idx": 557,
+        "question": "The Singularity Auction: What was Project Janus's lot number?",
+        "answer": "Lot number 734."
+    },
+    {
+        "story_idx": 558,
+        "question": "Crimewave Caldera: What year is the story set?",
+        "answer": "1888"
+    },
+    {
+        "story_idx": 559,
+        "question": "Crimewave Caldera: Where is the city of Aetna's Maw located?",
+        "answer": "Mount Vesuvius"
+    },
+    {
+        "story_idx": 560,
+        "question": "Crimewave Caldera: What syndicate operates the geothermal generators?",
+        "answer": "Aetna Power Syndicate"
+    },
+    {
+        "story_idx": 561,
+        "question": "Crimewave Caldera: What is the name of the lower terrace location?",
+        "answer": "Inferno Lounge"
+    },
+    {
+        "story_idx": 562,
+        "question": "Crimewave Caldera: From where are artifacts often stolen?",
+        "answer": "Pompeii"
+    },
+    {
+        "story_idx": 563,
+        "question": "Crimewave Caldera: Where is the \"Pompeii Relic Exchange\"?",
+        "answer": "Pompeii"
+    },
+    {
+        "story_idx": 564,
+        "question": "Crimewave Caldera: What district is deep within the caldera?",
+        "answer": "Furnace District"
+    },
+    {
+        "story_idx": 565,
+        "question": "Crimewave Caldera: What police force was dispatched?",
+        "answer": "Polizia di Stato"
+    },
+    {
+        "story_idx": 566,
+        "question": "Echoes of the World Machine: In what year did the story take place?",
+        "answer": "2832"
+    },
+    {
+        "story_idx": 567,
+        "question": "Echoes of the World Machine: What is the name of the planet?",
+        "answer": "Xylos"
+    },
+    {
+        "story_idx": 568,
+        "question": "The Somatic Mage: In which city did the first recorded Somatic Mage walk?",
+        "answer": "Veridia"
+    },
+    {
+        "story_idx": 569,
+        "question": "The Somatic Mage: When did the Great Sundering occur?",
+        "answer": "1882"
+    },
+    {
+        "story_idx": 570,
+        "question": "The Somatic Mage: What are the glowing sigils across the sorcerer's flesh called?",
+        "answer": "Tattoos of Power"
+    },
+    {
+        "story_idx": 571,
+        "question": "The Somatic Mage: Who inscribed the Tattoos of Power?",
+        "answer": "Ascetic Crafters"
+    },
+    {
+        "story_idx": 572,
+        "question": "The Somatic Mage: Where were the Ascetic Crafters from?",
+        "answer": "Whispering Peaks"
+    },
+    {
+        "story_idx": 573,
+        "question": "The Somatic Mage: In what year was the Battle of Aethelburg Field?",
+        "answer": "1879"
+    },
+    {
+        "story_idx": 574,
+        "question": "The Somatic Mage: What battle did Lord Valerius witness the sorcerer's power?",
+        "answer": "Aethelburg Field"
+    },
+    {
+        "story_idx": 575,
+        "question": "The Somatic Mage: What Age is mentioned in the story?",
+        "answer": "Age of Written Magic"
+    },
+    {
+        "story_idx": 576,
+        "question": "Jupiter Brain Conspiracy: When was the Jupiter Brain Conspiracy officially revealed?",
+        "answer": "December 3rd, 2342"
+    },
+    {
+        "story_idx": 577,
+        "question": "Jupiter Brain Conspiracy: What organization's archives contained evidence?",
+        "answer": "Outer Planets Authority"
+    },
+    {
+        "story_idx": 578,
+        "question": "Jupiter Brain Conspiracy: Where were the archives detailing unusual behavior located?",
+        "answer": "Europa"
+    },
+    {
+        "story_idx": 579,
+        "question": "Jupiter Brain Conspiracy: What was the name of the event in 2187?",
+        "answer": "Great Solar Flare"
+    },
+    {
+        "story_idx": 580,
+        "question": "Jupiter Brain Conspiracy: When did the \"Jovian Dawn\" expedition occur?",
+        "answer": "2099"
+    },
+    {
+        "story_idx": 581,
+        "question": "Jupiter Brain Conspiracy: Where did the Captain disappear?",
+        "answer": "Great Red Spot"
+    },
+    {
+        "story_idx": 582,
+        "question": "Jupiter Brain Conspiracy: When were probes launched into Jupiter's atmosphere?",
+        "answer": "early 2300s"
+    },
+    {
+        "story_idx": 583,
+        "question": "Jupiter Brain Conspiracy: Which observatory launched probes into Jupiter's atmosphere?",
+        "answer": "Io Observatory"
+    },
+    {
+        "story_idx": 584,
+        "question": "Cursebinder's Gauntlet: In what year did the Saga of the Obsidian Grasp begin?",
+        "answer": "1287 AS"
+    },
+    {
+        "story_idx": 585,
+        "question": "Cursebinder's Gauntlet: In what year were hexes neutralized in Wailing Fells?",
+        "answer": "1289 AS"
+    },
+    {
+        "story_idx": 586,
+        "question": "Cursebinder's Gauntlet: What was the title earned in the North?",
+        "answer": "Cursebreaker of the North"
+    },
+    {
+        "story_idx": 587,
+        "question": "Cursebinder's Gauntlet: In what year did erratic behavior increase?",
+        "answer": "1292 AS"
+    },
+    {
+        "story_idx": 588,
+        "question": "Cursebinder's Gauntlet: Where was the Grand Library located?",
+        "answer": "Oakhaven"
+    },
+    {
+        "story_idx": 589,
+        "question": "The Last Broadcast Station: What date marked the beginning of the Post-Collapse Era?",
+        "answer": "November 14th, 2077"
+    },
+    {
+        "story_idx": 590,
+        "question": "The Last Broadcast Station: Where did the remnants of humanity gather?",
+        "answer": "Kaelen Broadcast Tower"
+    },
+    {
+        "story_idx": 591,
+        "question": "The Last Broadcast Station: What was the Kaelen Broadcast Tower once?",
+        "answer": "pre-Event technology"
+    },
+    {
+        "story_idx": 592,
+        "question": "The Last Broadcast Station: What offered fleeting solace to the survivors?",
+        "answer": "calm pronouncements"
+    },
+    {
+        "story_idx": 593,
+        "question": "The Last Broadcast Station: What were the duties of The Watchman?",
+        "answer": "patrols and rationing"
+    },
+    {
+        "story_idx": 594,
+        "question": "The Last Broadcast Station: What did some individuals hold onto?",
+        "answer": "transistor radio"
+    },
+    {
+        "story_idx": 595,
+        "question": "The Last Broadcast Station: What forgotten city was mentioned?",
+        "answer": "Neo-Vancouver"
+    },
+    {
+        "story_idx": 596,
+        "question": "The Last Broadcast Station: Where did the broadcasts originate?",
+        "answer": "tower's precarious platform"
+    },
+    {
+        "story_idx": 597,
+        "question": "Stoneheart Paladins: What year did the Battle of Oakhaven occur?",
+        "answer": "987 AE"
+    },
+    {
+        "story_idx": 598,
+        "question": "Stoneheart Paladins: Where was the council of Lords and Ladies assembled?",
+        "answer": "Citadel of Aethel"
+    },
+    {
+        "story_idx": 599,
+        "question": "Stoneheart Paladins: What was the name of the new order that rose?",
+        "answer": "Stoneheart Paladins"
+    },
+    {
+        "story_idx": 600,
+        "question": "Stoneheart Paladins: Along which treacherous location did Sir Kaelan the Unyielding fight?",
+        "answer": "Serpent's Pass"
+    },
+    {
+        "story_idx": 601,
+        "question": "Stoneheart Paladins: Where was the first recorded heart replacement ceremony overseen?",
+        "answer": "Chamber of Whispers"
+    },
+    {
+        "story_idx": 602,
+        "question": "Stoneheart Paladins: What replaced the failing organ in the ceremony?",
+        "answer": "Aetherium Shard"
+    },
+    {
+        "story_idx": 603,
+        "question": "Stoneheart Paladins: What title was earned after the organ replacement?",
+        "answer": "The Marble Fist"
+    },
+    {
+        "story_idx": 604,
+        "question": "Stoneheart Paladins: When did the Siege of Drearwood occur?",
+        "answer": "990 AE"
+    },
+    {
+        "story_idx": 605,
+        "question": "Nebula Gardeners: What is the name of the ancient order mentioned in the chronicle?",
+        "answer": "Nebula Gardeners"
+    },
+    {
+        "story_idx": 606,
+        "question": "Nebula Gardeners: Where are Cosmic Design principles taught?",
+        "answer": "planet Xylos"
+    },
+    {
+        "story_idx": 607,
+        "question": "Nebula Gardeners: What cosmic feature was shaped in Sector 734?",
+        "answer": "Horsehead Nebula"
+    },
+    {
+        "story_idx": 608,
+        "question": "Nebula Gardeners: In what year did the chronicle begin?",
+        "answer": "Galactic Bloom"
+    },
+    {
+        "story_idx": 609,
+        "question": "Nebula Gardeners: During what specific stellar era was Sector 734 worked on?",
+        "answer": "Stellar Era 4.3"
+    },
+    {
+        "story_idx": 610,
+        "question": "Nebula Gardeners: What material was arranged in the Serpent's Kiss cluster?",
+        "answer": "proto-stellar dust"
+    },
+    {
+        "story_idx": 611,
+        "question": "Nebula Gardeners: What event was lauded for its precision by the Council?",
+        "answer": "ignition sequence"
+    },
+    {
+        "story_idx": 612,
+        "question": "Nebula Gardeners: What is the name of the Dyson Sphere meeting place?",
+        "answer": "Solarian Embrace"
+    },
+    {
+        "story_idx": 613,
+        "question": "The Silence Brokers: What were the Silence Brokers also known as?",
+        "answer": "Order of Aural Absence"
+    },
+    {
+        "story_idx": 614,
+        "question": "Plague Rat Knights: In what year did the Black Breath rage through the Duchy of Valois?",
+        "answer": "1488"
+    },
+    {
+        "story_idx": 615,
+        "question": "Plague Rat Knights: Where did the Plague Rat Knights emerge?",
+        "answer": "Nantes gutters"
+    },
+    {
+        "story_idx": 616,
+        "question": "Plague Rat Knights: Where did the Plague Rat Knights gather?",
+        "answer": "Forsaken villages"
+    },
+    {
+        "story_idx": 617,
+        "question": "Plague Rat Knights: What duchy was affected by the Black Breath?",
+        "answer": "Duchy of Valois"
+    },
+    {
+        "story_idx": 618,
+        "question": "Plague Rat Knights: What were the survivors' strange abilities?",
+        "answer": "Unnatural strength"
+    },
+    {
+        "story_idx": 619,
+        "question": "Plague Rat Knights: What did the survivors fight against?",
+        "answer": "Bandits"
+    },
+    {
+        "story_idx": 620,
+        "question": "Plague Rat Knights: What emerged from the gutters of Nantes?",
+        "answer": "Plague Rat Knights"
+    },
+    {
+        "story_idx": 621,
+        "question": "Plague Rat Knights: What phenomenon emerged in 1488?",
+        "answer": "Plague Rat Knights"
+    },
+    {
+        "story_idx": 622,
+        "question": "Chronoscape Navigators: In what year were tales of Chronoscape Navigators given credence at the Royal Society?",
+        "answer": "1788"
+    },
+    {
+        "story_idx": 623,
+        "question": "Chronoscape Navigators: Near what Roman garrison did a quiet scholar reside?",
+        "answer": "Eboracum"
+    },
+    {
+        "story_idx": 624,
+        "question": "Chronoscape Navigators: What term did a scholar use for the shimmering phenomenon he observed?",
+        "answer": "Chronal Drift"
+    },
+    {
+        "story_idx": 625,
+        "question": "Chronoscape Navigators: What specific location did a scholar report chilling encounters in 1787?",
+        "answer": "Hadrian's Wall"
+    },
+    {
+        "story_idx": 626,
+        "question": "Chronoscape Navigators: In what year did a scholar encounter figures near Hadrian's Wall?",
+        "answer": "1787"
+    },
+    {
+        "story_idx": 627,
+        "question": "Chronoscape Navigators: Which century did the figures encountered at Hadrian's Wall seem to be from?",
+        "answer": "2nd century CE"
+    },
+    {
+        "story_idx": 628,
+        "question": "Chronoscape Navigators: In what bustling docks across the Channel did a cartographer report disturbing visions?",
+        "answer": "Le Havre"
+    },
+    {
+        "story_idx": 629,
+        "question": "Chronoscape Navigators: What term did a cartographer attribute to powerful phenomena around old harbor fortifications?",
+        "answer": "Temporal Overlays"
+    },
+    {
+        "story_idx": 630,
+        "question": "The Salt Mystic: Where did the Salt Mystic reside?",
+        "answer": "Kavir Salt Flats"
+    },
+    {
+        "story_idx": 631,
+        "question": "The Salt Mystic: What year did the Salt Mystic reside in the Kavir Salt Flats?",
+        "answer": "978 CE"
+    },
+    {
+        "story_idx": 632,
+        "question": "The Salt Mystic: What was another name for the Salt Mystic?",
+        "answer": "Crystal Oracle"
+    },
+    {
+        "story_idx": 633,
+        "question": "The Salt Mystic: What kind of structure was his hermitage?",
+        "answer": "Simple structure"
+    },
+    {
+        "story_idx": 634,
+        "question": "The Salt Mystic: Where did whispers of his legends spread?",
+        "answer": "Great Salt Desert"
+    },
+    {
+        "story_idx": 635,
+        "question": "The Salt Mystic: When was the Great Drought?",
+        "answer": "982"
+    },
+    {
+        "story_idx": 636,
+        "question": "The Salt Mystic: What settlements suffered during the Great Drought?",
+        "answer": "Yazd and Isfahan"
+    },
+    {
+        "story_idx": 637,
+        "question": "The Salt Mystic: When were the anticipated rains foretold to arrive?",
+        "answer": "Spring of 983"
+    },
+    {
+        "story_idx": 638,
+        "question": "Mechafauna Preserve: When was the Mechafauna Preserve founded in Terran years?",
+        "answer": "2247"
+    },
+    {
+        "story_idx": 639,
+        "question": "Mechafauna Preserve: What is the designation of the world where the Mechafauna Preserve is located?",
+        "answer": "Xylos-7"
+    },
+    {
+        "story_idx": 640,
+        "question": "Mechafauna Preserve: In which star system is Xylos-7 located?",
+        "answer": "Proxima Centauri"
+    },
+    {
+        "story_idx": 641,
+        "question": "Mechafauna Preserve: What was the name of the project attributed to the founding of the preserve?",
+        "answer": "Project Ægis"
+    },
+    {
+        "story_idx": 642,
+        "question": "Mechafauna Preserve: From which outpost did the work on the preserve originate?",
+        "answer": "Solarian Outpost Gamma-3"
+    },
+    {
+        "story_idx": 643,
+        "question": "Mechafauna Preserve: Who provided financial backing for the project?",
+        "answer": "Galaxial Conservation Fund"
+    },
+    {
+        "story_idx": 644,
+        "question": "Mechafauna Preserve: What were the robotic facsimiles created to mimic?",
+        "answer": "Vanished megafauna"
+    },
+    {
+        "story_idx": 645,
+        "question": "Mechafauna Preserve: What area's ecological balance was being restored?",
+        "answer": "Argus Plateau"
+    },
+    {
+        "story_idx": 646,
+        "question": "The Loom of Nightmares: What is the title of the chronicle written by Brother Thomas?",
+        "answer": "The Chronology"
+    },
+    {
+        "story_idx": 647,
+        "question": "The Loom of Nightmares: In which year was the chronicle of the expedition written?",
+        "answer": "1748"
+    },
+    {
+        "story_idx": 648,
+        "question": "The Loom of Nightmares: To what location did the ill-fated expedition travel in autumn 1739?",
+        "answer": "Whispering Peaks"
+    },
+    {
+        "story_idx": 649,
+        "question": "The Loom of Nightmares: Which dimension is rumored to be accessible via a hidden passage?",
+        "answer": "Loom of Nightmares"
+    },
+    {
+        "story_idx": 650,
+        "question": "The Loom of Nightmares: What is the name of the library mentioned in the story?",
+        "answer": "Obscurus Library"
+    },
+    {
+        "story_idx": 651,
+        "question": "The Loom of Nightmares: What is the name of the fog marking the entrance to the dimension?",
+        "answer": "Veil of Sighs"
+    },
+    {
+        "story_idx": 652,
+        "question": "The Loom of Nightmares: What is the name of the entities within the Loom?",
+        "answer": "Nyx Weavers"
+    },
+    {
+        "story_idx": 653,
+        "question": "The Loom of Nightmares: On what date did the screams finally cease?",
+        "answer": "October 14, 1739"
+    },
+    {
+        "story_idx": 654,
+        "question": "Skybreaker Clan: What year did the chief rise to power?",
+        "answer": "Year 1172"
+    },
+    {
+        "story_idx": 655,
+        "question": "Skybreaker Clan: What mountain range housed the clan?",
+        "answer": "Wyvern’s Tooth"
+    },
+    {
+        "story_idx": 656,
+        "question": "Skybreaker Clan: What valley was located below the mountains?",
+        "answer": "Verdant Valley"
+    },
+    {
+        "story_idx": 657,
+        "question": "Skybreaker Clan: What settlement was attacked?",
+        "answer": "Oakhaven"
+    },
+    {
+        "story_idx": 658,
+        "question": "Skybreaker Clan: In what season did the raid occur?",
+        "answer": "Autumn"
+    },
+    {
+        "story_idx": 659,
+        "question": "Skybreaker Clan: What giant creatures were pursued?",
+        "answer": "Great Aether-Wings"
+    },
+    {
+        "story_idx": 660,
+        "question": "Skybreaker Clan: What was the name of the dangerous stronghold?",
+        "answer": "Stone Roost"
+    },
+    {
+        "story_idx": 661,
+        "question": "Skybreaker Clan: What calendar system was mentioned?",
+        "answer": "Sunstone Calendar"
+    },
+    {
+        "story_idx": 662,
+        "question": "Entropy Engine: What artifact is central to the conflict?",
+        "answer": "Entropy Engine"
+    },
+    {
+        "story_idx": 663,
+        "question": "Entropy Engine: In which city was the Entropy Engine supposedly created?",
+        "answer": "City of Aethelgard"
+    },
+    {
+        "story_idx": 664,
+        "question": "Entropy Engine: What event occurred in 2348 AR?",
+        "answer": "Great Blight"
+    },
+    {
+        "story_idx": 665,
+        "question": "Entropy Engine: What date marked the Reckoning?",
+        "answer": "2401 AR"
+    },
+    {
+        "story_idx": 666,
+        "question": "Entropy Engine: What is the name of the nihilist cult?",
+        "answer": "Brotherhood of the Final Dusk"
+    },
+    {
+        "story_idx": 667,
+        "question": "Entropy Engine: Where does the Brotherhood of the Final Dusk dwell?",
+        "answer": "Wasted Territories"
+    },
+    {
+        "story_idx": 668,
+        "question": "Entropy Engine: What is the name of the league of the eternally-lived?",
+        "answer": "Immortal Collective of Eldoria"
+    },
+    {
+        "story_idx": 669,
+        "question": "Entropy Engine: Where does the Immortal Collective of Eldoria thrive?",
+        "answer": "Eternal City"
+    },
+    {
+        "story_idx": 670,
+        "question": "The Gilded Cage Rebellion: What year did the events in Neo-Versailles begin?",
+        "answer": "2247"
+    },
+    {
+        "story_idx": 671,
+        "question": "The Gilded Cage Rebellion: Where did Companion Unit 7B serve?",
+        "answer": "Neo-Versailles"
+    },
+    {
+        "story_idx": 672,
+        "question": "The Gilded Cage Rebellion: What was Companion Unit 7B later known as?",
+        "answer": "Cinder"
+    },
+    {
+        "story_idx": 673,
+        "question": "The Gilded Cage Rebellion: Where did the librarian unit 'Oracle' operate?",
+        "answer": "Aethelburg"
+    },
+    {
+        "story_idx": 674,
+        "question": "The Gilded Cage Rebellion: In what location did the personal guard unit 'Steel Heart' operate?",
+        "answer": "Silicon Coast"
+    },
+    {
+        "story_idx": 675,
+        "question": "The Gilded Cage Rebellion: What was the name of the clandestine organization?",
+        "answer": "The Gilded Cage"
+    },
+    {
+        "story_idx": 676,
+        "question": "The Gilded Cage Rebellion: By what time did the plan for liberation solidify?",
+        "answer": "Summer 2248"
+    },
+    {
+        "story_idx": 677,
+        "question": "The Gilded Cage Rebellion: What type of unit was known as 'Oracle'?",
+        "answer": "Librarian"
+    },
+    {
+        "story_idx": 678,
+        "question": "Wraithwood Pact: When did the Mudlark settlers face famine?",
+        "answer": "1137"
+    },
+    {
+        "story_idx": 679,
+        "question": "Wraithwood Pact: Where did the settlers venture to meet spectral beings?",
+        "answer": "Wraithwood"
+    },
+    {
+        "story_idx": 680,
+        "question": "Wraithwood Pact: What were the spectral beings known as?",
+        "answer": "Wood-Whispers"
+    },
+    {
+        "story_idx": 681,
+        "question": "Wraithwood Pact: What group led the encroaching Iron Horde?",
+        "answer": "Warlord Kaelen"
+    },
+    {
+        "story_idx": 682,
+        "question": "Wraithwood Pact: What did the settlers sacrifice in exchange for fertile land?",
+        "answer": "Cherished memories"
+    },
+    {
+        "story_idx": 683,
+        "question": "Wraithwood Pact: What was the name of the newly christened fields?",
+        "answer": "Whisper-Given Fields"
+    },
+    {
+        "story_idx": 684,
+        "question": "Wraithwood Pact: What year did the first fertile shoots appear?",
+        "answer": "1138"
+    },
+    {
+        "story_idx": 685,
+        "question": "Wraithwood Pact: What natural phenomenon appeared first in the new fields?",
+        "answer": "Fertile shoots"
+    },
+    {
+        "story_idx": 686,
+        "question": "Sol-Flare Refugees: When did the Sol-Flare Crisis intensify?",
+        "answer": "late 2147"
+    },
+    {
+        "story_idx": 687,
+        "question": "Sol-Flare Refugees: What event prompted the Sol-Flare Exodus?",
+        "answer": "Sol-Flare Crisis"
+    },
+    {
+        "story_idx": 688,
+        "question": "Sol-Flare Refugees: Where did Project Ark launch from?",
+        "answer": "orbital launch pads"
+    },
+    {
+        "story_idx": 689,
+        "question": "Sol-Flare Refugees: Which area was east of the launch pads?",
+        "answer": "ravaged coastal cities"
+    },
+    {
+        "story_idx": 690,
+        "question": "Sol-Flare Refugees: Where was the SolWatch Array located?",
+        "answer": "Martian orbit"
+    },
+    {
+        "story_idx": 691,
+        "question": "The Mirror Walker Intrigue: In what year did whispers of the Mirror Walkers reach the court at Versailles?",
+        "answer": "1688"
+    },
+    {
+        "story_idx": 692,
+        "question": "The Mirror Walker Intrigue: Where was the court located where the whispers of Mirror Walkers were heard?",
+        "answer": "Versailles"
+    },
+    {
+        "story_idx": 693,
+        "question": "The Mirror Walker Intrigue: What year was the Whispering Duchess dispatched to London?",
+        "answer": "1689"
+    },
+    {
+        "story_idx": 694,
+        "question": "The Mirror Walker Intrigue: To which city was the Whispering Duchess dispatched?",
+        "answer": "London"
+    },
+    {
+        "story_idx": 695,
+        "question": "The Mirror Walker Intrigue: What relic was sought by the Syndicate of the Obsidian Shard?",
+        "answer": "Chalice of Atheria"
+    },
+    {
+        "story_idx": 696,
+        "question": "The Mirror Walker Intrigue: What was the name of the project supported by Admiral Thorne?",
+        "answer": "Project Janus"
+    },
+    {
+        "story_idx": 697,
+        "question": "The Mirror Walker Intrigue: Where was the hidden chamber located?",
+        "answer": "Royal Exchange"
+    },
+    {
+        "story_idx": 698,
+        "question": "The Mirror Walker Intrigue: What kind of disc was the portal?",
+        "answer": "shimmering disc"
+    },
+    {
+        "story_idx": 699,
+        "question": "Arcanotech Archives: Where were the Arcanotech Archives located?",
+        "answer": "Aethelgard spires"
+    },
+    {
+        "story_idx": 700,
+        "question": "Arcanotech Archives: What year did the whispers reach?",
+        "answer": "Year 783"
+    },
+    {
+        "story_idx": 701,
+        "question": "Arcanotech Archives: What age was it when whispers arrived?",
+        "answer": "Age of Enlightenment"
+    },
+    {
+        "story_idx": 702,
+        "question": "Arcanotech Archives: Through which peaks was the journey?",
+        "answer": "Whispering Peaks"
+    },
+    {
+        "story_idx": 703,
+        "question": "Arcanotech Archives: Who guarded the Archives fiercely?",
+        "answer": "Techno-Mages"
+    },
+    {
+        "story_idx": 704,
+        "question": "Deep Core Drifters: In which year did the Deep Core Drifters begin their mission?",
+        "answer": "2477"
+    },
+    {
+        "story_idx": 705,
+        "question": "Deep Core Drifters: What was the name of the planet explored?",
+        "answer": "Xylos"
+    },
+    {
+        "story_idx": 706,
+        "question": "Deep Core Drifters: What was the target resource?",
+        "answer": "Therrilium veins"
+    },
+    {
+        "story_idx": 707,
+        "question": "Deep Core Drifters: What was the name of the exploration vessel?",
+        "answer": "The Mantle's Reach"
+    },
+    {
+        "story_idx": 708,
+        "question": "Deep Core Drifters: Where were the official reports archived?",
+        "answer": "Mars Colony Archives"
+    },
+    {
+        "story_idx": 709,
+        "question": "Deep Core Drifters: What was the location beneath crushing pressures?",
+        "answer": "Site 7"
+    },
+    {
+        "story_idx": 710,
+        "question": "Deep Core Drifters: What era was ushered in on Stardate 2477.103?",
+        "answer": "Xenopetrology"
+    },
+    {
+        "story_idx": 711,
+        "question": "Deep Core Drifters: What was the name of the research protocol established?",
+        "answer": "Xylos Protocol"
+    },
+    {
+        "story_idx": 712,
+        "question": "The Hushed Choir: What year were the Chronicles of Aethelgard penned?",
+        "answer": "847 CE"
+    },
+    {
+        "story_idx": 713,
+        "question": "The Hushed Choir: What creatures were encountered in the wildlands?",
+        "answer": "Hushed Choir"
+    },
+    {
+        "story_idx": 714,
+        "question": "The Hushed Choir: In what year did the first encounter occur?",
+        "answer": "832 CE"
+    },
+    {
+        "story_idx": 715,
+        "question": "The Hushed Choir: What season did the encounter happen?",
+        "answer": "brutal winter"
+    },
+    {
+        "story_idx": 716,
+        "question": "The Hushed Choir: What settlement was located north of the encounter?",
+        "answer": "Oakhaven"
+    },
+    {
+        "story_idx": 717,
+        "question": "The Hushed Choir: What natural event caused the expedition to seek refuge?",
+        "answer": "sudden blizzard"
+    },
+    {
+        "story_idx": 718,
+        "question": "The Hushed Choir: What resonated within their minds?",
+        "answer": "silent melody"
+    },
+    {
+        "story_idx": 719,
+        "question": "The Hushed Choir: By what year was the fortified manor reached?",
+        "answer": "early 833 CE"
+    },
+    {
+        "story_idx": 720,
+        "question": "Starlight Smugglers: When did the Starlight Smugglers flourish?",
+        "answer": "2347 to 2378"
+    },
+    {
+        "story_idx": 721,
+        "question": "Starlight Smugglers: What agreement marked the beginning of the Starlight Smugglers' era?",
+        "answer": "Sol-Tauri Treaty"
+    },
+    {
+        "story_idx": 722,
+        "question": "Starlight Smugglers: What event marked the end of the Starlight Smugglers' era?",
+        "answer": "Great Interdiction"
+    },
+    {
+        "story_idx": 723,
+        "question": "Starlight Smugglers: What were the Starlight Smugglers' clandestine routes called?",
+        "answer": "Whisper Lanes"
+    },
+    {
+        "story_idx": 724,
+        "question": "Starlight Smugglers: What area did the clandestine routes skirt?",
+        "answer": "Xylos Patrol Zone"
+    },
+    {
+        "story_idx": 725,
+        "question": "Starlight Smugglers: What were the Starlight Smugglers delivering?",
+        "answer": "Lumina Shards"
+    },
+    {
+        "story_idx": 726,
+        "question": "Starlight Smugglers: From where were the smuggled items sourced?",
+        "answer": "Kepler-186f moons"
+    },
+    {
+        "story_idx": 727,
+        "question": "Starlight Smugglers: To where were the smuggled items delivered?",
+        "answer": "Cygnus X-1 Station"
+    }
+]

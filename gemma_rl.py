@@ -22,8 +22,8 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
         dict: Training statistics
     """
     # Load the dataset
-    print("Loading dataset from: train_dataset/train_data.json")
-    with open("train_dataset/train_data.json", "r") as f:
+    print("Loading dataset from: train_dataset/rl_data.json")
+    with open("train_dataset/rl_data.json", "r") as f:
         data = json.load(f)
     
     rows = []
