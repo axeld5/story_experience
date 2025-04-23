@@ -8,7 +8,7 @@ from huggingface_hub import login
 import argparse
 import os
 
-def train_sft_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path="gemma-3-stories-sft"):
+def train_sft_model(model_name="Qwen/Qwen2.5-7B-Instruct", max_steps=500, save_path="gemma-3-stories-sft"):
     """
     Train a model using Supervised Fine-Tuning (SFT).
     
@@ -111,9 +111,9 @@ def train_sft_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train a model using Supervised Fine-Tuning (SFT)")
-    parser.add_argument("--model_name", type=str, default="unsloth/gemma-3-1b-it", help="Name or path of the model to fine-tune")
+    parser.add_argument("--model_name", type=str, default="Qwen/Qwen2.5-7B-Instruct", help="Name or path of the model to fine-tune")
     parser.add_argument("--max_steps", type=int, default=500, help="Maximum number of training steps")
-    parser.add_argument("--save_path", type=str, default="gemma-3-stories-sft", help="Path to save the fine-tuned model")
+    parser.add_argument("--save_path", type=str, default="qwen-7b-stories-sft", help="Path to save the fine-tuned model")
     
     args = parser.parse_args()
     

@@ -7,7 +7,7 @@ from trl import GRPOConfig, GRPOTrainer
 from rewards import reward_similarity
 import argparse
 
-def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path="gemma-3-stories-rl", skip_lora=False):
+def train_rl_model(model_name="Qwen/Qwen2.5-7B-Instruct", max_steps=500, save_path="gemma-3-stories-rl", skip_lora=False):
     """
     Train a model using GRPO (Generative Reinforcement Policy Optimization).
     
@@ -110,9 +110,9 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train a model using GRPO (Generative Reinforcement Policy Optimization)")
-    parser.add_argument("--model_name", type=str, default="unsloth/gemma-3-1b-it", help="Name or path of the model to fine-tune")
+    parser.add_argument("--model_name", type=str, default="Qwen/Qwen2.5-7B-Instruct", help="Name or path of the model to fine-tune")
     parser.add_argument("--max_steps", type=int, default=500, help="Maximum number of training steps")
-    parser.add_argument("--save_path", type=str, default="gemma-3-stories-rl", help="Path to save the fine-tuned model")
+    parser.add_argument("--save_path", type=str, default="qwen-7b-stories-rl", help="Path to save the fine-tuned model")
     parser.add_argument("--skip_lora", action="store_true", help="Skip adding LoRA adapters when loading from checkpoint")
     
     args = parser.parse_args()
