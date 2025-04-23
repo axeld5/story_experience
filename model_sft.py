@@ -1,14 +1,14 @@
-from unsloth import FastModel
-from unsloth.chat_templates import get_chat_template
-from unsloth.chat_templates import standardize_data_formats
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from datasets import load_dataset
 from trl import SFTTrainer, SFTConfig
-from unsloth.chat_templates import train_on_responses_only
 from huggingface_hub import login
 import argparse
 import os
+from peft import LoraConfig, get_peft_model
+from unsloth.chat_templates import get_chat_template
+import torch
 
-def train_sft_model(model_name="Qwen/Qwen2.5-7B-Instruct", max_steps=500, save_path="gemma-3-stories-sft"):
+def train_sft_model(model_name="Qwen/Qwen2.5-7B-Instruct", max_steps=500, save_path="qwen-7b-stories-sft", skip_lora=False):
     """
     Train a model using Supervised Fine-Tuning (SFT).
     
@@ -25,39 +25,53 @@ def train_sft_model(model_name="Qwen/Qwen2.5-7B-Instruct", max_steps=500, save_p
     
     # Load the model
     print(f"Loading model: {model_name}")
-    model, tokenizer = FastModel.from_pretrained(
-        model_name=model_name,
-        max_seq_length=512,
-        load_in_4bit=True,
-        load_in_8bit=False,
-        full_finetuning=False,
+    model = AutoModelForCausalLM.from_pretrained(
+        model_name,
+        torch_dtype="auto",
+        device_map="auto"
     )
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
     
     # Apply LoRA fine-tuning
-    print("Applying LoRA fine-tuning")
-    model = FastModel.get_peft_model(
-        model,
-        finetune_vision_layers=False,
-        finetune_language_layers=True,
-        finetune_attention_modules=True,
-        finetune_mlp_modules=True,
-        r=8,
-        lora_alpha=32,
-        lora_dropout=0.1,
-        target_modules=["q_proj", "v_proj"],
-    )
-    
+    if not skip_lora:
+        bnb_config = BitsAndBytesConfig(
+        load_in_4bit=True,
+        bnb_4bit_quant_type="nf4",
+        bnb_4bit_use_double_quant=True,
+        bnb_4bit_compute_dtype=torch.float32
+        )
+        repo_id = model_name
+        model = AutoModelForCausalLM.from_pretrained(
+            repo_id, device_map="cuda:0", quantization_config=bnb_config
+        )
+        config = LoraConfig(
+            # the rank of the adapter, the lower the fewer parameters you'll need to train
+            r=8,                   
+            lora_alpha=16, # multiplier, usually 2*r
+            bias="none",           
+            lora_dropout=0.05,
+            task_type="CAUSAL_LM",
+            # Newer models, such as Phi-3 at time of writing, may require 
+            # manually setting target modules
+            target_modules=['o_proj', 'qkv_proj', 'gate_up_proj', 'down_proj'],
+        )
+        model = get_peft_model(model, config)
+            
     # Apply chat template
-    print("Applying chat template: gemma-3")
-    tokenizer = get_chat_template(
-        tokenizer,
-        chat_template="gemma-3",
-    )
+    if "gemma_3" in model_name:
+        print("Applying chat template: gemma-3")
+        tokenizer = get_chat_template(
+            tokenizer,
+            chat_template="gemma-3",
+        )
     
+    tokenizer.pad_token = tokenizer.unk_token
+    tokenizer.pad_token_id = tokenizer.unk_token_id
+        
     # Load and prepare the dataset
     print("Loading dataset from: train_dataset/train_data.json")
-    data = load_dataset('json', data_files="train_dataset/train_data.json")["train"]
-    dataset = standardize_data_formats(data)
+    dataset = load_dataset('json', data_files="train_dataset/train_data.json")["train"]
+    #dataset = standardize_data_formats(data)
     
     def apply_chat_template(examples):
         texts = tokenizer.apply_chat_template(examples["conversations"], tokenize=False, add_generation_prompt=True)
@@ -67,34 +81,47 @@ def train_sft_model(model_name="Qwen/Qwen2.5-7B-Instruct", max_steps=500, save_p
     
     # Create the trainer
     print("Creating SFT trainer")
+
+    sft_config = SFTConfig(
+        ## GROUP 1: Memory usage
+        # These arguments will squeeze the most out of your GPU's RAM
+        # Checkpointing
+        gradient_checkpointing=True,
+        # this saves a LOT of memory
+        # Set this to avoid exceptions in newer versions of PyTorch
+        gradient_checkpointing_kwargs={'use_reentrant': False},
+        # Gradient Accumulation / Batch size
+        # Actual batch (for updating) is same (1x) as micro-batch size
+        gradient_accumulation_steps=1,
+        # The initial (micro) batch size to start off with
+        per_device_train_batch_size=16,
+        # If batch size would cause OOM, halves its size until it works
+        auto_find_batch_size=True,
+        
+        ## GROUP 2: Dataset-related
+        max_seq_length=512,
+        # Dataset
+        # packing a dataset means no padding is needed
+        packing=True,
+        
+        ## GROUP 3: These are typical training parameters
+        num_train_epochs=10,
+        learning_rate=3e-4,
+        # Optimizer
+        # 8-bit Adam optimizer - doesn't help much if you're using LoRA!
+        optim='paged_adamw_8bit',
+        
+        ## GROUP 4: Logging parameters
+        logging_steps=10,
+        logging_dir='./logs',
+        output_dir='./qwen-7b-stories-sft',
+        report_to='none'
+    )    
     trainer = SFTTrainer(
         model=model,
-        tokenizer=tokenizer,
+        processing_class=tokenizer,
+        args=sft_config,
         train_dataset=dataset,
-        eval_dataset=None,
-        args=SFTConfig(
-            dataset_text_field="text",
-            per_device_train_batch_size=2,
-            gradient_accumulation_steps=4,
-            warmup_steps=5,
-            num_train_epochs=1,
-            max_steps=max_steps,
-            learning_rate=2e-4,
-            logging_steps=1,
-            optim="adamw_8bit",
-            weight_decay=0.01,
-            lr_scheduler_type="linear",
-            seed=3407,
-            report_to="none",
-        ),
-    )
-    
-    # Train on responses only
-    print("Configuring trainer to train on responses only")
-    trainer = train_on_responses_only(
-        trainer,
-        instruction_part="<start_of_turn>user\n",
-        response_part="<start_of_turn>model\n",
     )
     
     # Train the model
