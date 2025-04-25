@@ -7,7 +7,7 @@ from rewards import reward_similarity
 import argparse
 import torch
 
-def train_rl_model(model_name="Qwen/Qwen2.5-7B-Instruct", max_steps=500, save_path="qwen-7b-stories-rl", skip_lora=False):
+def train_rl_model(model_name="Qwen/Qwen2.5-0.5B-Instruct", max_steps=500, save_path="qwen-0.5b-stories-rl", skip_lora=False):
     """
     Train a model using GRPO (Generative Reinforcement Policy Optimization).
     

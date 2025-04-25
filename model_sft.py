@@ -8,7 +8,7 @@ from peft import LoraConfig, get_peft_model
 from unsloth.chat_templates import get_chat_template
 import torch
 
-def train_sft_model(model_name="Qwen/Qwen2.5-7B-Instruct", max_steps=500, save_path="qwen-7b-stories-sft", skip_lora=False):
+def train_sft_model(model_name="Qwen/Qwen2.5-0.5B-Instruct", max_steps=500, save_path="qwen-0.5b-stories-sft", skip_lora=False):
     """
     Train a model using Supervised Fine-Tuning (SFT).
     
