@@ -31,7 +31,6 @@ def train_sft_model(model_name="Qwen/Qwen2.5-0.5B-Instruct", max_steps=500, save
         device_map="auto"
     )
     tokenizer = AutoTokenizer.from_pretrained(model_name)
-    tokenizer.pad_token = tokenizer.eos_token
     
     # Apply LoRA fine-tuning
     if not skip_lora:
@@ -66,8 +65,7 @@ def train_sft_model(model_name="Qwen/Qwen2.5-0.5B-Instruct", max_steps=500, save
             chat_template="gemma-3",
         )
     
-    tokenizer.pad_token = tokenizer.unk_token
-    tokenizer.pad_token_id = tokenizer.unk_token_id
+    tokenizer.add_special_tokens({'pad_token': '[PAD]'})
         
     # Load and prepare the dataset
     print("Loading dataset from: train_dataset/train_data.json")
