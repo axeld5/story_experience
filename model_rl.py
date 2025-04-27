@@ -79,7 +79,7 @@ def train_rl_model(model_name="Qwen/Qwen2.5-0.5B-Instruct", max_steps=500, save_
     # 4. Trainer
     training_args = GRPOConfig(
         per_device_train_batch_size = 1,
-        gradient_accumulation_steps = 1,
+        gradient_accumulation_steps = 4,
         num_generations             = 2,   # shorter *k*, not shorter outputs
         bf16                        = False,
         use_vllm                    = False,
