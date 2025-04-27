@@ -48,6 +48,7 @@ def train_rl_model(model_name="Qwen/Qwen2.5-0.5B-Instruct", max_steps=500, save_
         torch_dtype="auto",
         device_map="auto"
     )
+    model.gradient_checkpointing_enable()
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     tokenizer.add_special_tokens({'pad_token': '[PAD]'})
     
