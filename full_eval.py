@@ -52,11 +52,18 @@ def load_model(model_path):
     """
     try:
         print(f"Loading model from: {model_path}")
-        model, tokenizer = AutoModelForCausalLM.from_pretrained(
-            model_name=model_path,
-            max_seq_length=2048,
-            load_in_4bit=True,
+        model = AutoModelForCausalLM.from_pretrained(
+            model_path,
+            torch_dtype="auto",
+            device_map="auto"
         )
+        if "qwen" in model_path:
+            if "0.5b" in model_path:
+                model_name = "Qwen/Qwen2.5-0.5B-Instruct"
+            elif "7b" in model_path:
+                model_name = "Qwen/Qwen2.5-7B-Instruct"
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        tokenizer.add_special_tokens({'pad_token': '[PAD]'})
         return model, tokenizer
     except Exception as e:
         print(f"Error loading model {model_path}: {str(e)}")
