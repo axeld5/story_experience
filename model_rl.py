@@ -49,6 +49,7 @@ def train_rl_model(model_name="Qwen/Qwen2.5-0.5B-Instruct", max_steps=500, save_
         device_map="auto"
     )
     tokenizer = AutoTokenizer.from_pretrained(model_name)
+    tokenizer.pad_token = tokenizer.eos_token
     
     # Apply LoRA fine-tuning
     if not skip_lora:
