@@ -1,4 +1,3 @@
-from unsloth import FastModel
 import tqdm
 import json
 import os
@@ -8,6 +7,7 @@ import datetime
 from dotenv import load_dotenv
 from google import genai
 import random
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 load_dotenv()
 api_key = os.getenv('GEMINI_API_KEY')
@@ -52,7 +52,7 @@ def load_model(model_path):
     """
     try:
         print(f"Loading model from: {model_path}")
-        model, tokenizer = FastModel.from_pretrained(
+        model, tokenizer = AutoModelForCausalLM.from_pretrained(
             model_name=model_path,
             max_seq_length=2048,
             load_in_4bit=True,

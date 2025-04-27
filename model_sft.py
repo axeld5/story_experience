@@ -5,7 +5,6 @@ from huggingface_hub import login
 import argparse
 import os
 from peft import LoraConfig, get_peft_model
-from unsloth.chat_templates import get_chat_template
 import torch
 
 def train_sft_model(model_name="Qwen/Qwen2.5-0.5B-Instruct", max_steps=500, save_path="qwen-0.5b-stories-sft", skip_lora=False):
@@ -56,15 +55,6 @@ def train_sft_model(model_name="Qwen/Qwen2.5-0.5B-Instruct", max_steps=500, save
             target_modules=['o_proj', 'qkv_proj', 'gate_up_proj', 'down_proj'],
         )
         model = get_peft_model(model, config)
-            
-    # Apply chat template
-    if "gemma_3" in model_name:
-        print("Applying chat template: gemma-3")
-        tokenizer = get_chat_template(
-            tokenizer,
-            chat_template="gemma-3",
-        )
-    
     tokenizer.add_special_tokens({'pad_token': '[PAD]'})
         
     # Load and prepare the dataset
