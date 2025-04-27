@@ -129,7 +129,7 @@ def eval_model(model_path, qa_pairs, print_interval=10):
             max_new_tokens=50,
             temperature=1.0, top_p=0.95, top_k=64,
         )
-        generated_answer = tokenizer.batch_decode(outputs)[0].split("<|im_start|>assistant")[0].strip()
+        generated_answer = tokenizer.batch_decode(outputs)[0].split("<|im_start|>assistant")[1].strip()
         
         # Use Gemini to verify the answer
         verification_prompt = f"""
