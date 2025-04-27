@@ -130,6 +130,7 @@ if __name__ == "__main__":
     parser.add_argument("--model_name", type=str, default="Qwen/Qwen2.5-0.5B-Instruct", help="Name or path of the model to fine-tune")
     parser.add_argument("--max_steps", type=int, default=500, help="Maximum number of training steps")
     parser.add_argument("--save_path", type=str, default="qwen-0.5b-stories-sft", help="Path to save the fine-tuned model")
+    parser.add_argument("--skip_lora", action="store_true", help="Skip adding LoRA adapters when loading from checkpoint")
     
     args = parser.parse_args()
     
@@ -137,5 +138,6 @@ if __name__ == "__main__":
     train_sft_model(
         model_name=args.model_name,
         max_steps=args.max_steps,
-        save_path=args.save_path
+        save_path=args.save_path,
+        skip_lora=args.skip_lora
     )
