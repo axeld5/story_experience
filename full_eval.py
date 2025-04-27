@@ -118,7 +118,7 @@ def eval_model(model_path, qa_pairs, print_interval=10):
         expected_answer = qa_pair["answer"]
         
         # Generate answer using the model
-        messages = [{"role": "user", "content": question}]
+        messages = [{"role": "user", "content": question + "Answer in 3 words or less."}]
         text = tokenizer.apply_chat_template(
             messages,
             tokenize=False,
@@ -129,7 +129,7 @@ def eval_model(model_path, qa_pairs, print_interval=10):
             max_new_tokens=50,
             temperature=1.0, top_p=0.95, top_k=64,
         )
-        generated_answer = tokenizer.batch_decode(outputs)[0].strip()
+        generated_answer = tokenizer.batch_decode(outputs)[0].split("<|im_start|>assistant").strip()
         
         # Use Gemini to verify the answer
         verification_prompt = f"""
