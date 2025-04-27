@@ -114,7 +114,7 @@ def train_sft_model(model_name="Qwen/Qwen2.5-0.5B-Instruct", max_steps=500, save
         ## GROUP 4: Logging parameters
         logging_steps=10,
         logging_dir='./logs',
-        output_dir='./qwen-7b-stories-sft',
+        output_dir='./qwen-0.5b-stories-sft',
         report_to='none'
     )    
     trainer = SFTTrainer(
@@ -138,9 +138,9 @@ def train_sft_model(model_name="Qwen/Qwen2.5-0.5B-Instruct", max_steps=500, save
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train a model using Supervised Fine-Tuning (SFT)")
-    parser.add_argument("--model_name", type=str, default="Qwen/Qwen2.5-7B-Instruct", help="Name or path of the model to fine-tune")
+    parser.add_argument("--model_name", type=str, default="Qwen/Qwen2.5-0.5B-Instruct", help="Name or path of the model to fine-tune")
     parser.add_argument("--max_steps", type=int, default=500, help="Maximum number of training steps")
-    parser.add_argument("--save_path", type=str, default="qwen-7b-stories-sft", help="Path to save the fine-tuned model")
+    parser.add_argument("--save_path", type=str, default="qwen-0.5b-stories-sft", help="Path to save the fine-tuned model")
     
     args = parser.parse_args()
     
