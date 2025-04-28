@@ -7,7 +7,7 @@ import os
 from peft import LoraConfig, get_peft_model
 import torch
 
-def train_sft_model(model_name="Qwen/Qwen2.5-7B-Instruct", max_steps=500, save_path="qwen-7b-stories-sft", skip_lora=False):
+def train_sft_model(model_name="Qwen/Qwen2.5-3B-Instruct", max_steps=500, save_path="qwen-3b-stories-sft", skip_lora=False):
     """
     Train a model using Supervised Fine-Tuning (SFT).
     
@@ -103,7 +103,7 @@ def train_sft_model(model_name="Qwen/Qwen2.5-7B-Instruct", max_steps=500, save_p
         ## GROUP 4: Logging parameters
         logging_steps=10,
         logging_dir='./logs',
-        output_dir='./qwen-7b-stories-sft',
+        output_dir='./qwen-3b-stories-sft',
         report_to='none'
     )    
     trainer = SFTTrainer(
@@ -127,9 +127,9 @@ def train_sft_model(model_name="Qwen/Qwen2.5-7B-Instruct", max_steps=500, save_p
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train a model using Supervised Fine-Tuning (SFT)")
-    parser.add_argument("--model_name", type=str, default="Qwen/Qwen2.5-7B-Instruct", help="Name or path of the model to fine-tune")
+    parser.add_argument("--model_name", type=str, default="Qwen/Qwen2.5-3B-Instruct", help="Name or path of the model to fine-tune")
     parser.add_argument("--max_steps", type=int, default=500, help="Maximum number of training steps")
-    parser.add_argument("--save_path", type=str, default="qwen-7b-stories-sft", help="Path to save the fine-tuned model")
+    parser.add_argument("--save_path", type=str, default="qwen-3b-stories-sft", help="Path to save the fine-tuned model")
     parser.add_argument("--skip_lora", action="store_true", help="Skip adding LoRA adapters when loading from checkpoint")
     
     args = parser.parse_args()
