@@ -58,8 +58,8 @@ def load_model(model_path):
             device_map="auto"
         )
         if "qwen" in model_path:
-            if "0.5b" in model_path:
-                model_name = "Qwen/Qwen2.5-0.5B-Instruct"
+            if "7b" in model_path:
+                model_name = "Qwen/Qwen2.5-7B-Instruct"
             elif "7b" in model_path:
                 model_name = "Qwen/Qwen2.5-7B-Instruct"
         tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -221,9 +221,9 @@ if __name__ == "__main__":
     
     # List of models to evaluate
     models = [
-            "qwen-0.5b-stories-sft",
+            "qwen-7b-stories-sft",
             #"gemma-3-stories-rl",
-            "qwen-0.5b-stories-sftrl"
+            "qwen-7b-stories-sftrl"
         ]
     
     # Get models from command line if provided
