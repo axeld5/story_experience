@@ -222,8 +222,8 @@ if __name__ == "__main__":
     # List of models to evaluate
     models = [
             "qwen-3b-stories-sft",
-            #"gemma-3-stories-rl",
-            "qwen-3b-stories-sftrl"
+            "qwen-3b-stories-rl",
+            #"qwen-3b-stories-sftrl"
         ]
     
     # Get models from command line if provided
