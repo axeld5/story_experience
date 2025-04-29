@@ -89,7 +89,7 @@ def train_rl_model(model_name="Qwen/Qwen2.5-3B-Instruct", max_steps=500, save_pa
         max_completion_length       = max_seq_length,
         optim                       = "paged_adamw_8bit",
         logging_steps=10,
-        save_steps=50,
+        save_steps=100,
     )
 
     trainer = GRPOTrainer(
