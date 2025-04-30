@@ -1,13 +1,13 @@
-from unsloth import FastModel
-from unsloth.chat_templates import get_chat_template
 import json
-from transformers import GenerationConfig, DataCollatorWithPadding
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from datasets import Dataset
+from peft import LoraConfig, get_peft_model
 from trl import GRPOConfig, GRPOTrainer
 from rewards import reward_similarity
 import argparse
+import torch
 
-def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path="gemma-3-stories-rl", skip_lora=False):
+def train_rl_model(model_name="Qwen/Qwen2.5-3B-Instruct", max_steps=500, save_path="qwen-3b-stories-rl", skip_lora=False):
     """
     Train a model using GRPO (Generative Reinforcement Policy Optimization).
     
@@ -22,8 +22,8 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
         dict: Training statistics
     """
     # Load the dataset
-    print("Loading dataset from: train_dataset/train_data.json")
-    with open("train_dataset/train_data.json", "r") as f:
+    print("Loading dataset from: train_dataset/rl_data.json")
+    with open("train_dataset/rl_data.json", "r") as f:
         data = json.load(f)
     
     rows = []
@@ -43,49 +43,53 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
     # Load the model
     print(f"Loading model: {model_name}")
     max_seq_length = 512
-    model, tokenizer = FastModel.from_pretrained(
-        model_name=model_name,
-        max_seq_length=max_seq_length,
-        load_in_4bit=True,
-        load_in_8bit=False,
-        full_finetuning=False,
-        attn_implementation="flash_attention_2",
+    model = AutoModelForCausalLM.from_pretrained(
+        model_name,
+        torch_dtype="auto",
+        device_map="auto"
     )
+    model.gradient_checkpointing_enable()
+    model.enable_input_require_grads()
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    tokenizer.add_special_tokens({'pad_token': '[PAD]'})
     
-    # Apply LoRA fine-tuning only if not skipping
+    # Apply LoRA fine-tuning
     if not skip_lora:
-        print("Applying LoRA fine-tuning")
-        model = FastModel.get_peft_model(
-            model,
-            finetune_vision_layers=False,
-            finetune_language_layers=True,
-            finetune_attention_modules=True,
-            finetune_mlp_modules=True,
-            r=8,
-            lora_alpha=32,
-            lora_dropout=0.1,
-            target_modules=["q_proj", "v_proj"],
+        bnb_config = BitsAndBytesConfig(
+        load_in_4bit=True,
+        bnb_4bit_quant_type="nf4",
+        bnb_4bit_use_double_quant=True,
+        bnb_4bit_compute_dtype=torch.float32
         )
-    else:
-        print("Skipping LoRA fine-tuning as requested")
-    
-    # Apply chat template
-    print("Applying chat template: gemma-3")
-    tokenizer = get_chat_template(
-        tokenizer,
-        chat_template="gemma-3",
-    )  # cut activation mem
+        repo_id = model_name
+        model = AutoModelForCausalLM.from_pretrained(
+            repo_id, device_map="cuda:0", quantization_config=bnb_config
+        )
+        config = LoraConfig(
+            # the rank of the adapter, the lower the fewer parameters you'll need to train
+            r=8,                   
+            lora_alpha=16, # multiplier, usually 2*r
+            bias="none",           
+            lora_dropout=0.05,
+            task_type="CAUSAL_LM",
+            # Newer models, such as Phi-3 at time of writing, may require 
+            # manually setting target modules
+            target_modules=['o_proj', 'qkv_proj', 'gate_up_proj', 'down_proj'],
+        )
+        model = get_peft_model(model, config)
 
     # 4. Trainer
     training_args = GRPOConfig(
         per_device_train_batch_size = 1,
-        gradient_accumulation_steps = 2,
-        num_generations             = 4,   # shorter *k*, not shorter outputs
-        bf16                        = True,
+        gradient_accumulation_steps = 4,
+        num_generations             = 2,   # shorter *k*, not shorter outputs
+        bf16                        = False,
         use_vllm                    = False,
         max_steps                   = max_steps,
         max_completion_length       = max_seq_length,
-        optim                       = "adamw_8bit",
+        optim                       = "paged_adamw_8bit",
+        logging_steps=10,
+        save_steps=100,
     )
 
     trainer = GRPOTrainer(
@@ -110,9 +114,9 @@ def train_rl_model(model_name="unsloth/gemma-3-1b-it", max_steps=500, save_path=
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train a model using GRPO (Generative Reinforcement Policy Optimization)")
-    parser.add_argument("--model_name", type=str, default="unsloth/gemma-3-1b-it", help="Name or path of the model to fine-tune")
+    parser.add_argument("--model_name", type=str, default="Qwen/Qwen2.5-3B-Instruct", help="Name or path of the model to fine-tune")
     parser.add_argument("--max_steps", type=int, default=500, help="Maximum number of training steps")
-    parser.add_argument("--save_path", type=str, default="gemma-3-stories-rl", help="Path to save the fine-tuned model")
+    parser.add_argument("--save_path", type=str, default="qwen-3b-stories-rl", help="Path to save the fine-tuned model")
     parser.add_argument("--skip_lora", action="store_true", help="Skip adding LoRA adapters when loading from checkpoint")
     
     args = parser.parse_args()

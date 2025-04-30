@@ -73,6 +73,24 @@ The project evaluates several model variants with different training approaches:
 - `gemma-3-stories-sftrl-midfit`: RL for 500 steps on SFT-midfit model (1000 steps)
 - `gemma-3-stories-sftrl-overfit`: RL for 500 steps on SFT-overfit model (2000 steps)
 
+## Model Performance Summary
+
+This evaluation comes from running the code on Qwen-2.5-3B and Qwen-2.5-0.5B.
+RL learning happened on Qwen-2.5-3B, sft+rl wasn't tested due to resource limitations.
+
+```
+================================================================================
+SUMMARY OF ALL MODELS
+================================================================================
+Model                                    Correct Answers Total Questions Score      Status
+--------------------------------------------------------------------------------
+qwen-3b-stories-sft                      8               100             0.0800    Success
+qwen-3b-stories-rl                       4               100             0.0400    Success
+qwen-0.5b-sft                            1               100             0.0100    Success
+qwen-0.5b-sftrl                          0               100             0.0000    Success
+================================================================================
+```
+
 ## Possible improvements
 
 - Find a way to circumvent very slow start in the difflib reward

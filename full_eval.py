@@ -1,4 +1,3 @@
-from unsloth import FastModel
 import tqdm
 import json
 import os
@@ -8,6 +7,7 @@ import datetime
 from dotenv import load_dotenv
 from google import genai
 import random
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 load_dotenv()
 api_key = os.getenv('GEMINI_API_KEY')
@@ -52,11 +52,18 @@ def load_model(model_path):
     """
     try:
         print(f"Loading model from: {model_path}")
-        model, tokenizer = FastModel.from_pretrained(
-            model_name=model_path,
-            max_seq_length=2048,
-            load_in_4bit=True,
+        model = AutoModelForCausalLM.from_pretrained(
+            model_path,
+            torch_dtype="auto",
+            device_map="auto"
         )
+        if "qwen" in model_path:
+            if "3b" in model_path:
+                model_name = "Qwen/Qwen2.5-3B-Instruct"
+            elif "3b" in model_path:
+                model_name = "Qwen/Qwen2.5-3B-Instruct"
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        tokenizer.add_special_tokens({'pad_token': '[PAD]'})
         return model, tokenizer
     except Exception as e:
         print(f"Error loading model {model_path}: {str(e)}")
@@ -111,7 +118,7 @@ def eval_model(model_path, qa_pairs, print_interval=10):
         expected_answer = qa_pair["answer"]
         
         # Generate answer using the model
-        messages = [{"role": "user", "content": question}]
+        messages = [{"role": "user", "content": question + "Answer in 3 words or less."}]
         text = tokenizer.apply_chat_template(
             messages,
             tokenize=False,
@@ -122,7 +129,7 @@ def eval_model(model_path, qa_pairs, print_interval=10):
             max_new_tokens=50,
             temperature=1.0, top_p=0.95, top_k=64,
         )
-        generated_answer = tokenizer.batch_decode(outputs)[0].split("model\n")[1].split("<end_of_turn>")[0].strip()
+        generated_answer = tokenizer.batch_decode(outputs)[0].split("<|im_start|>assistant")[1].split("<|im_end|>")[0].strip()
         
         # Use Gemini to verify the answer
         verification_prompt = f"""
@@ -203,30 +210,20 @@ def save_results_to_csv(results, filename=None):
 
 if __name__ == "__main__":
     # Load the QA pairs
-    with open("qa_pairs.json", "r") as f:
+    with open("modified_qa_pairs.json", "r") as f:
         qa_data = json.load(f)
     
     # Extract QA pairs
-    qa_pairs = []
-    for (question, answer) in zip(qa_data["questions"], qa_data["answers"]):
-        qa_pairs.append({
-            "question": question,
-            "answer": answer
-        }) 
     # Sample 100 random QA pairs
-    qa_pairs = random.sample(qa_pairs, min(100, len(qa_pairs)))
+    qa_pairs = random.sample(qa_data, min(100, len(qa_data)))
     
     print(f"Loaded {len(qa_pairs)} question-answer pairs")
     
     # List of models to evaluate
     models = [
-            "gemma-3-stories-sft",
-            "gemma-3-stories-sft-midfit", 
-            "gemma-3-stories-sft-overfit",
-            "gemma-3-stories-rl",
-            "gemma-3-stories-sftrl",
-            "gemma-3-stories-sftrl-midfit",
-            "gemma-3-stories-sftrl-overfit"
+            "qwen-3b-stories-sft",
+            "qwen-3b-stories-rl",
+            #"qwen-3b-stories-sftrl"
         ]
     
     # Get models from command line if provided
